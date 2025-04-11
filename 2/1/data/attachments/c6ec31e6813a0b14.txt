@@ -1,0 +1,1 @@
+{"manufacturer_id":"6150000098765","product_id":"fa","product_instance":"fa"}

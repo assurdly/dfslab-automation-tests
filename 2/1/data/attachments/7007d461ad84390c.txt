@@ -1,0 +1,1 @@
+{"participant":{"type":"GLN","id":"6150000098765"}}

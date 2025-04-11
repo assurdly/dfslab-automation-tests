@@ -1,141 +1,32 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","189","Total Events Count","Assurdly | Receiver API","Fri Apr 11 11:36:55 GMT 2025","passed","Fri Apr 11 11:36:55 GMT 2025","","Events","",""
-"","440","Get Product Instance Shared With Government Stats","Assurdly | Receiver API","Fri Apr 11 11:36:57 GMT 2025","passed","Fri Apr 11 11:36:58 GMT 2025","","Shared With Government","",""
-"","412","Get Product Instance Graph Invalid Request (missing or incomplete field)","Assurdly | Receiver API","Fri Apr 11 11:36:56 GMT 2025","failed","Fri Apr 11 11:36:57 GMT 2025","","Product Instances","",""
-"","236","Get Product Instance Shared with Government - Invalid Request (missing or incomplete field)","Assurdly | Receiver API","Fri Apr 11 11:36:57 GMT 2025","failed","Fri Apr 11 11:36:57 GMT 2025","","Shared With Government","",""
-"","456","Get Product Instance Shared With Government Stats - Invalid Request (missing or incomplete field)","Assurdly | Receiver API","Fri Apr 11 11:36:58 GMT 2025","failed","Fri Apr 11 11:36:58 GMT 2025","","Shared With Government","",""
-"","420","Get Product Instance Graph","Assurdly | Receiver API","Fri Apr 11 11:36:56 GMT 2025","passed","Fri Apr 11 11:36:56 GMT 2025","","Product Instances","",""
-"","212","Get Product Instance - Invalid Request (missing or incomplete field)","Assurdly | Receiver API","Fri Apr 11 11:36:56 GMT 2025","failed","Fri Apr 11 11:36:56 GMT 2025","","Product Instances","",""
-"","419","Dashboard Filter","Assurdly | Receiver API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:54 GMT 2025","Stats","Dashboard","",""
-"","228","Get Product Instance Shared with Government","Assurdly | Receiver API","Fri Apr 11 11:36:57 GMT 2025","passed","Fri Apr 11 11:36:57 GMT 2025","","Shared With Government","",""
-"","920","Login - Valid Credentials","Assurdly | Receiver API","Fri Apr 11 11:36:50 GMT 2025","passed","Fri Apr 11 11:36:51 GMT 2025","Login","Authentication","",""
-"","190","Read Notification","Assurdly | Receiver API","Fri Apr 11 11:36:52 GMT 2025","passed","Fri Apr 11 11:36:52 GMT 2025","Notification","Home","",""
-"","184","Login - Invalid Credentials - Missing Password","Assurdly | Receiver API","Fri Apr 11 11:36:51 GMT 2025","failed","Fri Apr 11 11:36:52 GMT 2025","Login","Authentication","",""
-"","274","Total Event","Assurdly | Receiver API","Fri Apr 11 11:36:54 GMT 2025","passed","Fri Apr 11 11:36:54 GMT 2025","","Events","",""
-"","259","Login - Invalid Credentials - Wrong Username or Password","Assurdly | Receiver API","Fri Apr 11 11:36:51 GMT 2025","passed","Fri Apr 11 11:36:51 GMT 2025","Login","Authentication","",""
-"","333","Tour status","Assurdly | Receiver API","Fri Apr 11 11:36:52 GMT 2025","passed","Fri Apr 11 11:36:52 GMT 2025","Tour","Home","",""
-"","194","Set uom Preference","Assurdly | Receiver API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","Preference","Home","",""
-"### Get Producer Total Events
-
-This API endpoint is used to retrieve total events for a specific producer from the dashboard.
-
-#### Request Body
-
-- `request_type` (string, optional): Type of request.
-    
-- `product_type` (string, optional): Type of product.
-    
-- `fqs_type` (string): Type of FQS.
-    
-- `from_date` (string): Start date for the event search.
-    
-- `to_date` (string): End date for the event search.
-    
-- `product_category` (string, optional): Category of the product.
-    
-
-#### Response Body
-
-The response is in JSON format and follows the schema below:
-
-``` json
-{
-  ""Data"": [
-    {
-      ""event_id"": """",
-      ""events_comments"": [
-        {
-          ""_id"": """",
-          ""event_id"": """",
-          ""comments"": """",
-          ""user_name"": """",
-          ""timestamp"": """"
-        }
-      ],
-      ""event_type"": """",
-      ""event_location"": {
-        ""id"": """",
-        ""name"": """"
-      },
-      ""trading_partner"": {
-        ""id"": """",
-        ""name"": """"
-      },
-      ""activity"": {
-        ""type"": """",
-        ""no"": """"
-      },
-      ""data_capture_time"": """",
-      ""batches"": [
-        {
-          ""type"": """",
-          ""manufacturer"": {
-            ""id"": """",
-            ""type"": """"
-          },
-          ""product"": {
-            ""id"": """",
-            ""type"": """"
-          },
-          ""product_instance"": {
-            ""id"": """",
-            ""type"": """"
-          }
-        }
-      ]
-    }
-  ],
-  ""Filters"": {
-    ""manufacturer"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""tradPartner"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""eventLocation"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""productId"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""activityType"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""activityNumber"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""prodInstance"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ]
-  }
-}
-
- ```","736","Total Event - Empty Fields","Assurdly | Receiver API","Fri Apr 11 11:36:54 GMT 2025","failed","Fri Apr 11 11:36:55 GMT 2025","","Events","",""
-"","425","Dashboard Filter - Empty Required Fields","Assurdly | Receiver API","Fri Apr 11 11:36:54 GMT 2025","failed","Fri Apr 11 11:36:54 GMT 2025","Stats","Dashboard","",""
-"","188","Total Events Count - Empty Fields","Assurdly | Receiver API","Fri Apr 11 11:36:55 GMT 2025","failed","Fri Apr 11 11:36:55 GMT 2025","","Events","",""
-"","209","Participant Detail","Assurdly | Receiver API","Fri Apr 11 11:36:52 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","participant","Home","",""
-"","194","Get uom Preference","Assurdly | Receiver API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","Preference","Home","",""
-"","199","Set uom Preference - Empty Value","Assurdly | Receiver API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","Preference","Home","",""
-"","304","Notifications","Assurdly | Receiver API","Fri Apr 11 11:36:52 GMT 2025","passed","Fri Apr 11 11:36:52 GMT 2025","Notification","Home","",""
-"","214","Get Product Instance","Assurdly | Receiver API","Fri Apr 11 11:36:55 GMT 2025","passed","Fri Apr 11 11:36:56 GMT 2025","","Product Instances","",""
+"","389","Set Preference","Assurdly | Producer API","Fri Apr 11 11:36:54 GMT 2025","passed","Fri Apr 11 11:36:55 GMT 2025","Preference","Home","",""
+"","355","Create Single Event","Assurdly | Producer API","Fri Apr 11 11:37:01 GMT 2025","failed","Fri Apr 11 11:37:01 GMT 2025","","Transformation Event","",""
+"","369","Create Single Event","Assurdly | Producer API","Fri Apr 11 11:37:02 GMT 2025","failed","Fri Apr 11 11:37:02 GMT 2025","","Analysis","",""
+"","351","Get Sites","Assurdly | Producer API","Fri Apr 11 11:37:02 GMT 2025","passed","Fri Apr 11 11:37:02 GMT 2025","Get Sites","Analysis","",""
+"","356","Get Events Information","Assurdly | Producer API","Fri Apr 11 11:37:05 GMT 2025","failed","Fri Apr 11 11:37:06 GMT 2025","","Events","",""
+"","364","Create Single Event Empty and Invalid Field","Assurdly | Producer API","Fri Apr 11 11:37:02 GMT 2025","failed","Fri Apr 11 11:37:03 GMT 2025","","Analysis","",""
+"","193","Login - Invalid Credentials - Missing Email","Assurdly | Producer API","Fri Apr 11 11:36:52 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","Login","Authentication","",""
+"","546","Get Product Instance Shared Government","Assurdly | Producer API","Fri Apr 11 11:36:59 GMT 2025","passed","Fri Apr 11 11:37:00 GMT 2025","","Shared With Government","",""
+"","357","Get Product Shared Government Count","Assurdly | Producer API","Fri Apr 11 11:36:58 GMT 2025","failed","Fri Apr 11 11:36:59 GMT 2025","","Shared With Government","",""
+"","193","Login - Invalid Credentials - Missing Password","Assurdly | Producer API","Fri Apr 11 11:36:52 GMT 2025","failed","Fri Apr 11 11:36:52 GMT 2025","Login","Authentication","",""
+"","265","Login - Invalid Credentials","Assurdly | Producer API","Fri Apr 11 11:36:52 GMT 2025","passed","Fri Apr 11 11:36:52 GMT 2025","Login","Authentication","",""
+"","361","Get Product Instance Graph Copy","Assurdly | Producer API","Fri Apr 11 11:37:05 GMT 2025","failed","Fri Apr 11 11:37:05 GMT 2025","","Product Instances","",""
+"","353","Single Event - Empty Event Type","Assurdly | Producer API","Fri Apr 11 11:37:01 GMT 2025","passed","Fri Apr 11 11:37:02 GMT 2025","","Transformation Event","",""
+"","348","Create Bulk Event","Assurdly | Producer API","Fri Apr 11 11:37:03 GMT 2025","failed","Fri Apr 11 11:37:03 GMT 2025","","Analysis","",""
+"","355","Get FQS","Assurdly | Producer API","Fri Apr 11 11:37:03 GMT 2025","failed","Fri Apr 11 11:37:03 GMT 2025","FQS","Product Instances","",""
+"","360","Get Product Shared Government Count Empty and Invalid Field","Assurdly | Producer API","Fri Apr 11 11:36:59 GMT 2025","passed","Fri Apr 11 11:36:59 GMT 2025","","Shared With Government","",""
+"","1814","Get Dashboard Statistics","Assurdly | Producer API","Fri Apr 11 11:36:55 GMT 2025","passed","Fri Apr 11 11:36:56 GMT 2025","Overview > Stats","Dashboard","",""
+"","349","Get Total Event","Assurdly | Producer API","Fri Apr 11 11:37:05 GMT 2025","failed","Fri Apr 11 11:37:05 GMT 2025","","Events","",""
+"","358","Get Total Events Count","Assurdly | Producer API","Fri Apr 11 11:37:06 GMT 2025","passed","Fri Apr 11 11:37:06 GMT 2025","","Events","",""
+"","395","Notifications","Assurdly | Producer API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","Notification","Home","",""
+"","190","Token","Assurdly | Producer API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:53 GMT 2025","Token","Authentication","",""
+"","354","Get Product Instance Graph","Assurdly | Producer API","Fri Apr 11 11:37:04 GMT 2025","failed","Fri Apr 11 11:37:05 GMT 2025","","Product Instances","",""
+"","370","Participant Details","Assurdly | Producer API","Fri Apr 11 11:36:54 GMT 2025","passed","Fri Apr 11 11:36:54 GMT 2025","participant","Home","",""
+"","1211","Get Product Instance Shared Government Copy","Assurdly | Producer API","Fri Apr 11 11:37:00 GMT 2025","passed","Fri Apr 11 11:37:01 GMT 2025","","Shared With Government","",""
+"","938","Login - Valid Credentials","Assurdly | Producer API","Fri Apr 11 11:36:51 GMT 2025","passed","Fri Apr 11 11:36:52 GMT 2025","Login","Authentication","",""
+"","368","Get Preference","Assurdly | Producer API","Fri Apr 11 11:36:54 GMT 2025","failed","Fri Apr 11 11:36:54 GMT 2025","Preference","Home","",""
+"","414","Get Product Instance List","Assurdly | Producer API","Fri Apr 11 11:37:03 GMT 2025","passed","Fri Apr 11 11:37:04 GMT 2025","","Product Instances","",""
+"","374","Tour Status","Assurdly | Producer API","Fri Apr 11 11:36:53 GMT 2025","passed","Fri Apr 11 11:36:54 GMT 2025","Tour","Home","",""
+"","1562","Get Dashboard Statistics Empty Field","Assurdly | Producer API","Fri Apr 11 11:36:56 GMT 2025","passed","Fri Apr 11 11:36:58 GMT 2025","Overview > Stats","Dashboard","",""
+"","423","Get Product Instance Empty and Invalid Field","Assurdly | Producer API","Fri Apr 11 11:37:04 GMT 2025","failed","Fri Apr 11 11:37:04 GMT 2025","","Product Instances","",""
+"","406","Get Dashboard Filter","Assurdly | Producer API","Fri Apr 11 11:36:58 GMT 2025","passed","Fri Apr 11 11:36:58 GMT 2025","Overview > Stats","Dashboard","",""

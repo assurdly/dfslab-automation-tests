@@ -1,0 +1,8 @@
+{
+    "type": "",
+    "product_type": "knknk Oil",
+    "fqs_type": "jnknk A",
+    "from_date": " jnnk",
+    "to_date": "2025-04-10T20:57:03",
+    "product_category": ""
+}
