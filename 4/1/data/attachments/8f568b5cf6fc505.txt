@@ -1,0 +1,9 @@
+{
+    "request_type": "producer",
+    "type": "ll",
+    "product_type": ",, Oil",
+    "fqs_type": "Vitamin A",
+    "from_date": "2025-01-01T00:00:00",
+    "to_date": "2025-04-11T07:54:58",
+    "product_category": ""
+}

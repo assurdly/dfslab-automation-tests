@@ -1,0 +1,68 @@
+{
+    "event": {
+        "original_event_id": "",
+        "event_type": "",
+        "event_location": {
+            "id": "6150000098765",
+            "type": "GLN"
+        },
+        "data_owner": {
+            "type": "GLN",
+            "id": "6150000098765"
+        },
+        "trading_partner": {
+            "id": "",
+            "type": ""
+        },
+        "activity_type": "Production Order",
+        "activity_number": "",
+        "data_capture_time": "2025-04-09T13:40:06.834Z",
+        "event_comments": "None",
+        "user_name": "dfqt-producer@assurdly.com"
+    },
+    "in_products": [
+        {
+            "product_instance_id": {
+                "id": "B123",
+                "type": "batch"
+            },
+            "product_id": {
+                "id": "P123",
+                "type": "GTIN"
+            },
+            "manufacturer": {
+                "id": "4041865000001",
+                "type": "GLN"
+            },
+            "premix_addition_qty": 1,
+            "premix_addition_uom": "kg",
+            "dilution_factor": 2
+        }
+    ],
+    "product_out": [
+        {
+            "product_instance_id": {
+                "id": "1212",
+                "type": "batch"
+            },
+            "product_id": {
+                "id": "product_009",
+                "type": "GTIN"
+            },
+            "manufacturer": {
+                "id": "6150000098765",
+                "type": "GLN"
+            },
+            "product_date": "2025-04-09T00:00:00.000Z",
+            "best_before_date": "2025-04-09T00:00:00.000Z",
+            "package_size": 1,
+            "package_uom": "kg",
+            "data_sheets": [],
+            "product_category": "Groundnut Oil",
+            "product_brand": {
+                "id": "67e333df29bea2c51cf7db09",
+                "name": "Cereal"
+            }
+        }
+    ]
+}
