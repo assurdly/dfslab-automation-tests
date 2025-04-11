@@ -1,0 +1,54 @@
+{
+    "event": {
+        "original_event_id": "",
+        "event_type": "Analysis",
+        "event_location": {
+            "id": "6150000098765",
+            "type": "GLN"
+        },
+        "data_owner": {
+            "type": "GLN",
+            "id": "6150000098765"
+        },
+        "trading_partner": {
+            "id": "",
+            "type": ""
+        },
+        "activity_type": "Test Result",
+        "activity_number": "7",
+        "data_capture_time": "2025-04-11T07:14:36.120Z",
+        "event_comments": "",
+        "user_name": "dfqt-producer^@assurdly.com"
+    },
+    "in_products": [
+        {
+            "product_instance_id": {
+                "id": "8",
+                "type": "batch"
+            },
+            "product_id": {
+                "id": "6152314125555",
+                "type": "GTIN"
+            },
+            "manufacturer": {
+                "id": "6150000098765",
+                "type": "GLN"
+            },
+            "composition": {
+                "analysis": {
+                    "date": "2025-04-11T00:00:00.000Z",
+                    "method": "iCheck Device"
+                },
+                "components": [
+                    {
+                        "name": "Vitamin A (RE)",
+                        "type": "concentration",
+                        "value": 5,
+                        "uom": "IU/g",
+                        "semi_quanitive": []
+                    }
+                ]
+            }
+        }
+    ]
+}
