@@ -1,4 +1,0 @@
-level: log, messages: SEGMENT>>>,dashboard-api
-level: log, messages: First segment of path:,dashboard-api
-level: log, messages: Using client_id:,gain-reporting
-level: log, messages: Token Response:,[object Object]

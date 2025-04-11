@@ -1,7 +1,0 @@
-{
-    "product_type": "",
-    "fqs_type": "",
-    "from_date": "",
-    "to_date": "bhgvhggcf",
-    "product_category": "khgtf"
-}

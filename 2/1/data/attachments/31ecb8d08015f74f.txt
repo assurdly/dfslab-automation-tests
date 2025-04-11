@@ -1,1 +1,0 @@
-{"product_type":"ngg","fqs_type":"3","from_date":"ere","to_date":"2025-04-10T13:39:14","product_category":""}
