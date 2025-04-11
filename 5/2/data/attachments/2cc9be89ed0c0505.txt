@@ -1,1 +1,0 @@
-{"success":true,"message":"Product Instances fetched successfully","data":{"Shared":0,"Not-Shared":6},"error":null}

@@ -1,0 +1,118 @@
+{
+    "event": {
+        "original_event_id": "",
+        "event_type": "Shipping",
+        "event_location": {
+            "id": "4041865000001",
+            "type": "GLN"
+        },
+        "data_owner": {
+            "type": "GLN",
+            "id": "4041865000001"
+        },
+        "trading_partner": {
+            "id": "6150000098765",
+            "type": "GLN"
+        },
+        "activity_type": "Purchase Order",
+        "activity_number": "0123",
+        "shipping_date": "2025-04-03T23:49:05.697",
+        "data_capture_time": "2025-04-04T00:04:41.521",
+        "event_comments": "",
+        "user_name": "dfqt-shipper@assurdly.com"
+    },
+    "in_products": [
+        {
+            "product_instance_id": {
+                "id": "lot0123",
+                "type": "lot"
+            },
+            "product_id": {
+                "id": "88888888",
+                "type": "GTIN"
+            },
+            "manufacturer": {
+                "id": "4041865000001",
+                "type": "GLN"
+            },
+            "product_date": "2025-04-03T23:56:20.066",
+            "best_before_date": "2025-04-03T23:56:20.066",
+            "quantity": 1,
+            "uom": "kg",
+            "data_sheets": [
+                {
+                    "type": "",
+                    "url": ""
+                },
+                {
+                    "type": "",
+                    "url": ""
+                },
+                {
+                    "type": "",
+                    "url": ""
+                }
+            ],
+            "composition": {
+                "analysis": {
+                    "date": "2025-04-03T23:56:20.066",
+                    "method": "iCheck Device"
+                },
+                "components": [
+                    {
+                        "name": "Vitamin A (RE)",
+                        "type": "concentration",
+                        "value": -1,
+                        "uom": "IU/g"
+                    }
+                ]
+            }
+        },
+        {
+            "product_instance_id": {
+                "id": "batch0123",
+                "type": "batch"
+            },
+            "product_id": {
+                "id": "P123",
+                "type": "GTIN"
+            },
+            "manufacturer": {
+                "id": "4041865000001",
+                "type": "GLN"
+            },
+            "product_date": "2025-04-03T23:59:10.089",
+            "best_before_date": "2025-04-03T23:59:10.089",
+            "quantity": 2,
+            "uom": "kg",
+            "data_sheets": [
+                {
+                    "type": "",
+                    "url": ""
+                },
+                {
+                    "type": "",
+                    "url": ""
+                },
+                {
+                    "type": "",
+                    "url": ""
+                }
+            ],
+            "composition": {
+                "analysis": {
+                    "date": "2025-04-03T23:59:10.089",
+                    "method": "iCheck Device"
+                },
+                "components": [
+                    {
+                        "name": "Vitamin A (RE)",
+                        "type": "concentration",
+                        "value": 0.3,
+                        "uom": "IU/g"
+                    }
+                ]
+            }
+        }
+    ]
+}
