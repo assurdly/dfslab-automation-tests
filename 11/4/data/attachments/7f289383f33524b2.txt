@@ -1,7 +1,0 @@
-{
-    "product_type": "kmk",
-    "fqs_type": "kk",
-    "from_date": "hvyyy-",
-    "to_date": "4",
-    "product_category": "nhum"
-}

@@ -1,1 +1,0 @@
-{"success":true,"message":"Config data retrieved successfully","data":[{"label":"Edible Oil","value":"edible-oil"},{"label":"Micronutrient","value":"micronutrient"}],"error":null}
