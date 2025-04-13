@@ -1,0 +1,163 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","138","Read Notification - Invalid Notification id","Assurdly | Government APIs","Sun Apr 13 11:43:11 GMT 2025","failed","Sun Apr 13 11:43:12 GMT 2025","Notification","Home","",""
+"","240","Total Event","Assurdly | Government APIs","Sun Apr 13 11:43:20 GMT 2025","passed","Sun Apr 13 11:43:20 GMT 2025","","Events Records","",""
+"","228","Get Analysis Manufacturers","Assurdly | Government APIs","Sun Apr 13 11:43:19 GMT 2025","passed","Sun Apr 13 11:43:19 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","226","Get Analysis Manufacturers - No Auth","Assurdly | Government APIs","Sun Apr 13 11:43:19 GMT 2025","passed","Sun Apr 13 11:43:19 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","234","Site Overview - No auth","Assurdly | Government APIs","Sun Apr 13 11:43:15 GMT 2025","passed","Sun Apr 13 11:43:15 GMT 2025","","Site Overview","",""
+"","288","Get Product Instance List","Assurdly | Government APIs","Sun Apr 13 11:43:13 GMT 2025","passed","Sun Apr 13 11:43:13 GMT 2025","","Participant List","",""
+"","240","Dashboard Filter - Empty Required Fields","Assurdly | Government APIs","Sun Apr 13 11:43:13 GMT 2025","failed","Sun Apr 13 11:43:13 GMT 2025","Stats","Dashboard","",""
+"","355","Get Sites","Assurdly | Government APIs","Sun Apr 13 11:43:15 GMT 2025","passed","Sun Apr 13 11:43:16 GMT 2025","Analysis > Get Sites","Analysis Event","",""
+"","231","Get Preference - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:16 GMT 2025","failed","Sun Apr 13 11:43:16 GMT 2025","Analysis > Get Preference","Analysis Event","",""
+"","237","Site Overview","Assurdly | Government APIs","Sun Apr 13 11:43:15 GMT 2025","passed","Sun Apr 13 11:43:15 GMT 2025","","Site Overview","",""
+"","249","Get Analysis Manufacturers","Assurdly | Government APIs","Sun Apr 13 11:43:18 GMT 2025","passed","Sun Apr 13 11:43:18 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","236","Creating Analysis Event","Assurdly | Government APIs","Sun Apr 13 11:43:19 GMT 2025","failed","Sun Apr 13 11:43:20 GMT 2025","Single Event","Analysis Event","",""
+"","234","Creating Analysis Event - Invalid Fields","Assurdly | Government APIs","Sun Apr 13 11:43:20 GMT 2025","passed","Sun Apr 13 11:43:20 GMT 2025","Single Event","Analysis Event","",""
+"","231","Get Preference - Get Labels -","Assurdly | Government APIs","Sun Apr 13 11:43:16 GMT 2025","failed","Sun Apr 13 11:43:17 GMT 2025","Analysis > Get Preference","Analysis Event","",""
+"","228","Get Product Instance List  - No Auth","Assurdly | Government APIs","Sun Apr 13 11:43:15 GMT 2025","passed","Sun Apr 13 11:43:15 GMT 2025","","Product Instances","",""
+"","232","Get Analysis Manufacturers","Assurdly | Government APIs","Sun Apr 13 11:43:19 GMT 2025","passed","Sun Apr 13 11:43:19 GMT 2025","Analysis Instance Ids","Analysis Event","",""
+"","235","Total Events Count - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:21 GMT 2025","failed","Sun Apr 13 11:43:21 GMT 2025","","Events Records","",""
+"","236","Notifications","Assurdly | Government APIs","Sun Apr 13 11:43:11 GMT 2025","failed","Sun Apr 13 11:43:11 GMT 2025","Notification","Home","",""
+"","817","Login - Valid Credentials","Assurdly | Government APIs","Sun Apr 13 11:43:10 GMT 2025","passed","Sun Apr 13 11:43:11 GMT 2025","Login","Authentication","",""
+"","213","Login - Invalid Credentials","Assurdly | Government APIs","Sun Apr 13 11:43:11 GMT 2025","passed","Sun Apr 13 11:43:11 GMT 2025","Login","Authentication","",""
+"","234","Get Analysis Product Ids","Assurdly | Government APIs","Sun Apr 13 11:43:18 GMT 2025","passed","Sun Apr 13 11:43:18 GMT 2025","Analysis Product Ids","Analysis Event","",""
+"","233","Get Company Type","Assurdly | Government APIs","Sun Apr 13 11:43:17 GMT 2025","passed","Sun Apr 13 11:43:18 GMT 2025","Analysis > Get Company Type","Analysis Event","",""
+"","229","Get Labels - Case Sensitive Event Type","Assurdly | Government APIs","Sun Apr 13 11:43:17 GMT 2025","failed","Sun Apr 13 11:43:17 GMT 2025","Analysis > Get Labels (for Frontend Field Display)","Analysis Event","",""
+"","245","Dashboard Filter","Assurdly | Government APIs","Sun Apr 13 11:43:13 GMT 2025","failed","Sun Apr 13 11:43:13 GMT 2025","Stats","Dashboard","",""
+"","226","Tour Status","Assurdly | Government APIs","Sun Apr 13 11:43:12 GMT 2025","passed","Sun Apr 13 11:43:12 GMT 2025","Tour","Home","",""
+"","289","Get Product Instance List","Assurdly | Government APIs","Sun Apr 13 11:43:14 GMT 2025","passed","Sun Apr 13 11:43:15 GMT 2025","","Product Instances","",""
+"","241","Get Tooltips","Assurdly | Government APIs","Sun Apr 13 11:43:17 GMT 2025","passed","Sun Apr 13 11:43:17 GMT 2025","Analysis > Get Tooltips","Analysis Event","",""
+"","148","Participant Details","Assurdly | Government APIs","Sun Apr 13 11:43:12 GMT 2025","failed","Sun Apr 13 11:43:12 GMT 2025","participant","Home","",""
+"","295","Get Producer Activity","Assurdly | Government APIs","Sun Apr 13 11:43:14 GMT 2025","passed","Sun Apr 13 11:43:14 GMT 2025","","Participant Activity","",""
+"### Get Producer Total Events
+
+This API endpoint is used to retrieve total events for a specific producer from the dashboard.
+
+#### Request Body
+
+- `request_type` (string, optional): Type of request.
+    
+- `product_type` (string, optional): Type of product.
+    
+- `fqs_type` (string): Type of FQS.
+    
+- `from_date` (string): Start date for the event search.
+    
+- `to_date` (string): End date for the event search.
+    
+- `product_category` (string, optional): Category of the product.
+    
+
+#### Response Body
+
+The response is in JSON format and follows the schema below:
+
+``` json
+{
+  ""Data"": [
+    {
+      ""event_id"": """",
+      ""events_comments"": [
+        {
+          ""_id"": """",
+          ""event_id"": """",
+          ""comments"": """",
+          ""user_name"": """",
+          ""timestamp"": """"
+        }
+      ],
+      ""event_type"": """",
+      ""event_location"": {
+        ""id"": """",
+        ""name"": """"
+      },
+      ""trading_partner"": {
+        ""id"": """",
+        ""name"": """"
+      },
+      ""activity"": {
+        ""type"": """",
+        ""no"": """"
+      },
+      ""data_capture_time"": """",
+      ""batches"": [
+        {
+          ""type"": """",
+          ""manufacturer"": {
+            ""id"": """",
+            ""type"": """"
+          },
+          ""product"": {
+            ""id"": """",
+            ""type"": """"
+          },
+          ""product_instance"": {
+            ""id"": """",
+            ""type"": """"
+          }
+        }
+      ]
+    }
+  ],
+  ""Filters"": {
+    ""manufacturer"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""tradPartner"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""eventLocation"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""productId"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""activityType"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""activityNumber"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""prodInstance"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ]
+  }
+}
+
+ ```","236","Total Event - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:20 GMT 2025","failed","Sun Apr 13 11:43:21 GMT 2025","","Events Records","",""
+"","131","Login - Invalid Credentials - Missing Password","Assurdly | Government APIs","Sun Apr 13 11:43:11 GMT 2025","failed","Sun Apr 13 11:43:11 GMT 2025","Login","Authentication","",""
+"","234","Total Events Count","Assurdly | Government APIs","Sun Apr 13 11:43:21 GMT 2025","passed","Sun Apr 13 11:43:21 GMT 2025","","Events Records","",""
+"","229","Get Producer Activity  - No Auth","Assurdly | Government APIs","Sun Apr 13 11:43:14 GMT 2025","passed","Sun Apr 13 11:43:14 GMT 2025","","Participant Activity","",""
+"","148","Read Notification","Assurdly | Government APIs","Sun Apr 13 11:43:11 GMT 2025","passed","Sun Apr 13 11:43:11 GMT 2025","Notification","Home","",""
+"","226","Get Product Instance List Copy","Assurdly | Government APIs","Sun Apr 13 11:43:13 GMT 2025","passed","Sun Apr 13 11:43:14 GMT 2025","","Participant List","",""
+"","232","Get Analysis Manufacturers - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:18 GMT 2025","passed","Sun Apr 13 11:43:18 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","231","Get Labels - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:17 GMT 2025","failed","Sun Apr 13 11:43:17 GMT 2025","Analysis > Get Labels (for Frontend Field Display)","Analysis Event","",""
+"","228","Get Labels","Assurdly | Government APIs","Sun Apr 13 11:43:17 GMT 2025","passed","Sun Apr 13 11:43:17 GMT 2025","Analysis > Get Labels (for Frontend Field Display)","Analysis Event","",""
+"","246","Set uom Preference - Empty Value","Assurdly | Government APIs","Sun Apr 13 11:43:12 GMT 2025","passed","Sun Apr 13 11:43:13 GMT 2025","Preference > Set UOM Preference","Home","",""
+"","236","Creating Analysis Event - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:20 GMT 2025","passed","Sun Apr 13 11:43:20 GMT 2025","Single Event","Analysis Event","",""
+"","133","Login - Invalid Credentials - Missing Email","Assurdly | Government APIs","Sun Apr 13 11:43:11 GMT 2025","passed","Sun Apr 13 11:43:11 GMT 2025","Login","Authentication","",""
+"","245","Get Preference","Assurdly | Government APIs","Sun Apr 13 11:43:16 GMT 2025","passed","Sun Apr 13 11:43:16 GMT 2025","Analysis > Get Preference","Analysis Event","",""
+"","234","Get Analysis Product Ids - Empty Fields","Assurdly | Government APIs","Sun Apr 13 11:43:18 GMT 2025","passed","Sun Apr 13 11:43:19 GMT 2025","Analysis Product Ids","Analysis Event","",""
+"","248","Set Preference","Assurdly | Government APIs","Sun Apr 13 11:43:12 GMT 2025","passed","Sun Apr 13 11:43:12 GMT 2025","Preference > Set UOM Preference","Home","",""
+"","238","Get all config types","Assurdly | Government APIs","Sun Apr 13 11:43:16 GMT 2025","passed","Sun Apr 13 11:43:16 GMT 2025","Analysis > Config Types","Analysis Event","",""
+"","242","Get Preference","Assurdly | Government APIs","Sun Apr 13 11:43:12 GMT 2025","failed","Sun Apr 13 11:43:12 GMT 2025","Preference > Fetch UOM Preference","Home","",""
