@@ -1,0 +1,1 @@
+{"success":false,"message":"Internal Server Error","data":null,"error":{"code":500,"name":"INTERNAL_SERVER_ERROR","detail":"CastError: Cast to ObjectId failed for value \"67473c958a9fd3f56f5ced\" (type string) at path \"notification_id\" for model \"notifications_user_status\"","validationErrors":null}}

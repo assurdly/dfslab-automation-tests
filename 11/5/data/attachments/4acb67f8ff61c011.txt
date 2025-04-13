@@ -1,0 +1,10 @@
+{
+    "manufacturer": {
+        "type": "GLN",
+        "id": "6150000098765"
+    },
+    "productId": {
+        "type": "GTIN"
+    },
+    "typeOfProduct": "edible-oil"
+}
