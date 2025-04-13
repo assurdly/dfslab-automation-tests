@@ -1,1 +1,0 @@
-{"event":{"event_location":{"id":"4041865000001","type":"GLN","name":"ABCD Chemicals,Headquarters"},"trading_partner":{"id":"","type":"GLN"},"activity_type":"Purchase Order"},"in_products":[{"manufacturer":{"id":"","type":"GLN"},"product_id":{"id":"","type":"GTIN"},"product_instance":{"id":"","type":"lot"},"source_of_information":"iCheck Device","uom":"IU/g","quantity":"kg"}]}

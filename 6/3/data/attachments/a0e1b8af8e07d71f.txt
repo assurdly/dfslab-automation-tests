@@ -1,0 +1,1 @@
+{"success":true,"message":"Product brand and category details fetched successfully","data":{"product_brand":{"exist":true,"detail":{"brand_ref_id":"67e333df29bea2c51cf7db09","brand_name":"Cereal"}},"product_category":{"exist":true,"detail":{"category_name":"Sesame Oil"}}},"error":null}
