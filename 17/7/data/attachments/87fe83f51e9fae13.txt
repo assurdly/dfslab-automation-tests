@@ -1,0 +1,1 @@
+{"total_mn_shipments":45,"premix_received":37,"premix_not_received":8,"total_qty_shipped":2219,"total_qty_received":1699}
