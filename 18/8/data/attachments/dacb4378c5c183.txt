@@ -1,0 +1,1 @@
+[{"product_instance":{"product_id":"GTIN:premix-id-02","product_instance_id":"batch:premix-batch-01"},"best_before_date":"2025-01-07T06:46:38.020","product_date":"2025-01-07T06:46:38.020","product_type":"premix/nutrient","manufacturer":{"id":"GLN:4041865000001","name":"ABCD Chemicals"},"production_date":"2025-01-07T06:46:38.020","quantity":"100 kg"}]
