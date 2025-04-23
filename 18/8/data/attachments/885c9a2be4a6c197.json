@@ -1,0 +1,15 @@
+{
+    "referrer-policy": "no-referrer",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "cache-control": "no-store",
+    "x-content-type-options": "nosniff",
+    "set-cookie": "KC_RESTART=; Version=1; Expires=Thu, 01-Jan-1970 00:00:10 GMT; Max-Age=0; Path=/iam/realms/gain/; HttpOnly",
+    "pragma": "no-cache",
+    "x-xss-protection": "1; mode=block",
+    "content-type": "application/json",
+    "content-length": "3386",
+    "x-envoy-upstream-service-time": "81",
+    "date": "Wed, 23 Apr 2025 18:49:03 GMT",
+    "server": "istio-envoy"
+}
