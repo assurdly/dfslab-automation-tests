@@ -1,0 +1,1 @@
+{"success":true,"message":"Notification has been marked as read","data":[{"notificationId":"67f78905fc08966a621d40ba","isRead":true,"readAt":"2025-04-11T18:06:18.240Z"}],"error":null}

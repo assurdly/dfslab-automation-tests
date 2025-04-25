@@ -1,0 +1,9 @@
+{
+    "event_id": "d94f509f74205b5f5fc6867bdcf7a1647509ff865e3f75e006aeccd69b2d02c6",
+    "event_type": "Receiving",
+    "event_location": "8940000012345",
+    "trading_partner": "4041865000001",
+    "activity_type": "Purchase Order",
+    "activity_number": "PO-0701",
+    "time": "2025-01-07T06:53:31.781"
+}
