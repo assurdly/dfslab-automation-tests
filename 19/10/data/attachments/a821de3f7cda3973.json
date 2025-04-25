@@ -1,0 +1,17 @@
+{
+    "referrer-policy": "no-referrer",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "x-robots-tag": "none",
+    "cache-control": "no-store, must-revalidate, max-age=0",
+    "x-content-type-options": "nosniff",
+    "content-security-policy": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';",
+    "set-cookie": "KC_RESTART=eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJiYjhmMTY5ZC00MjYwLTQwODMtYmMwYi1kYTBjNTdhMGY0YTYifQ.eyJjaWQiOiJpc3Rpby1nYXRld2F5LXRscy1jbGllbnQiLCJwdHkiOiJvcGVuaWQtY29ubmVjdCIsInJ1cmkiOiJodHRwczovL2RlbW8uZGZxdC5vcmcvb2F1dGgyL2NhbGxiYWNrIiwiYWN0IjoiQVVUSEVOVElDQVRFIiwibm90ZXMiOnsic2NvcGUiOiJvcGVuaWQiLCJpc3MiOiJodHRwczovL2RlbW8uZGZxdC5vcmcvaWFtL3JlYWxtcy9nYWluIiwicmVzcG9uc2VfdHlwZSI6ImNvZGUiLCJjbGllbnRfcmVxdWVzdF9wYXJhbV9hcHByb3ZhbF9wcm9tcHQiOiJmb3JjZSIsInJlZGlyZWN0X3VyaSI6Imh0dHBzOi8vZGVtby5kZnF0Lm9yZy9vYXV0aDIvY2FsbGJhY2siLCJzdGF0ZSI6IktvTVlnMUJHUU96ZWtnVXpvT21CN3BhSTBhUS1rOGRyQzJreUZvM05CVFk6L2luZ2VzdC1hcGkvc2hhcmVkL2dldC1wcm9kdWNlci1yZWNvcmQtcmVjZWl2aW5nIn19.RUGoCqEClxUMuqrCId8_O5JsZIaR2_jcSlxw6V7Ou0I; Version=1; Path=/iam/realms/gain/; HttpOnly",
+    "x-xss-protection": "1; mode=block",
+    "content-language": "en",
+    "content-type": "text/html;charset=utf-8",
+    "content-length": "6524",
+    "x-envoy-upstream-service-time": "13",
+    "date": "Fri, 25 Apr 2025 18:44:09 GMT",
+    "server": "istio-envoy"
+}
