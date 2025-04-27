@@ -1,0 +1,24 @@
+{
+    "request_type": "ProducerToGovt",
+    "batches": [
+        {
+            "manufacturer_type": "GLN",
+            "manufacturer_id": "6150000098765",
+            "product_id": "product_009",
+            "product_instance_id": "1212",
+            "event_location": {
+                "id": "6150000098765",
+                "type": "GLN"
+            },
+            "fqs_ids": [
+                ""
+            ]
+        }
+    ],
+    "govt_ids": [
+        {
+            "type": "GN",
+            "id": "6150000000001"
+        }
+    ]
+}

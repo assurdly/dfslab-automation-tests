@@ -1,0 +1,165 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","246","Get Labels - Empty Fields","Assurdly | Shipper API","Sun Apr 27 20:16:05 GMT 2025","failed","Sun Apr 27 20:16:06 GMT 2025","Shipping > Get Labels","Shipping Event","",""
+"","249","Get events information","Assurdly | Shipper API","Sun Apr 27 20:15:59 GMT 2025","passed","Sun Apr 27 20:15:59 GMT 2025","Event Information","Events Records","",""
+"","142","Read Notification","Assurdly | Shipper API","Sun Apr 27 20:15:55 GMT 2025","passed","Sun Apr 27 20:15:55 GMT 2025","Notification","Home","",""
+"","217","Login - Invalid Credentials","Assurdly | Shipper API","Sun Apr 27 20:15:54 GMT 2025","passed","Sun Apr 27 20:15:54 GMT 2025","Login","Authentication","",""
+"","882","Dashboard Filter - Empty Required Fields","Assurdly | Shipper API","Sun Apr 27 20:15:57 GMT 2025","failed","Sun Apr 27 20:15:58 GMT 2025","Stats","Dashboard","",""
+"","269","Creating Shipping Event","Assurdly | Shipper API","Sun Apr 27 20:16:07 GMT 2025","passed","Sun Apr 27 20:16:08 GMT 2025","Single Event","Shipping Event","",""
+"","885","Dashboard Filter","Assurdly | Shipper API","Sun Apr 27 20:15:56 GMT 2025","passed","Sun Apr 27 20:15:57 GMT 2025","Stats","Dashboard","",""
+"","241","Get label","Assurdly | Shipper API","Sun Apr 27 20:16:05 GMT 2025","passed","Sun Apr 27 20:16:05 GMT 2025","Shipping > Get Labels","Shipping Event","",""
+"","243","Get product id","Assurdly | Shipper API","Sun Apr 27 20:16:07 GMT 2025","passed","Sun Apr 27 20:16:07 GMT 2025","Shipping > Get Product Id","Shipping Event","",""
+"","261","Participant Details","Assurdly | Shipper API","Sun Apr 27 20:15:55 GMT 2025","passed","Sun Apr 27 20:15:55 GMT 2025","Participant","Home","",""
+"","241","Get tooltips","Assurdly | Shipper API","Sun Apr 27 20:16:05 GMT 2025","passed","Sun Apr 27 20:16:05 GMT 2025","Shipping > Get Tooltips","Shipping Event","",""
+"","893","Get Product Instance Shared With Government Stats - Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Sun Apr 27 20:16:03 GMT 2025","failed","Sun Apr 27 20:16:04 GMT 2025","","Shared With Government","",""
+"","255","Set uom Preference - Empty Value","Assurdly | Shipper API","Sun Apr 27 20:15:56 GMT 2025","passed","Sun Apr 27 20:15:56 GMT 2025","Preference > Set UOM Preference","Home","",""
+"","869","Get Product Instance Graph","Assurdly | Shipper API","Sun Apr 27 20:16:00 GMT 2025","passed","Sun Apr 27 20:16:01 GMT 2025","","Product Instances","",""
+"","297","Get Product Instance","Assurdly | Shipper API","Sun Apr 27 20:15:59 GMT 2025","failed","Sun Apr 27 20:16:00 GMT 2025","","Product Instances","",""
+"","242","Get participant details - Empty Fields","Assurdly | Shipper API","Sun Apr 27 20:16:07 GMT 2025","failed","Sun Apr 27 20:16:07 GMT 2025","Shipping > Get Participant Details","Shipping Event","",""
+"","293","Total Event","Assurdly | Shipper API","Sun Apr 27 20:15:58 GMT 2025","passed","Sun Apr 27 20:15:58 GMT 2025","Total Event","Events Records","",""
+"","141","Read Notification - Invalid Notification id","Assurdly | Shipper API","Sun Apr 27 20:15:55 GMT 2025","failed","Sun Apr 27 20:15:55 GMT 2025","Notification","Home","",""
+"","245","Get participant details","Assurdly | Shipper API","Sun Apr 27 20:16:06 GMT 2025","passed","Sun Apr 27 20:16:06 GMT 2025","Shipping > Get Participant Details","Shipping Event","",""
+"","243","Get Share FQS Invalid Field","Assurdly | Shipper API","Sun Apr 27 20:16:09 GMT 2025","passed","Sun Apr 27 20:16:09 GMT 2025","","FQS","",""
+"","246","Get preference","Assurdly | Shipper API","Sun Apr 27 20:16:06 GMT 2025","passed","Sun Apr 27 20:16:06 GMT 2025","Shipping > Get Preference","Shipping Event","",""
+"","293","Get Product Instance - Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Sun Apr 27 20:16:00 GMT 2025","failed","Sun Apr 27 20:16:00 GMT 2025","","Product Instances","",""
+"","242","Get Labels - Case Sensitive Event Type","Assurdly | Shipper API","Sun Apr 27 20:16:06 GMT 2025","failed","Sun Apr 27 20:16:06 GMT 2025","Shipping > Get Labels","Shipping Event","",""
+"","243","Get preference - Empty Fields","Assurdly | Shipper API","Sun Apr 27 20:16:06 GMT 2025","failed","Sun Apr 27 20:16:06 GMT 2025","Shipping > Get Preference","Shipping Event","",""
+"","245","Bulk event","Assurdly | Shipper API","Sun Apr 27 20:16:08 GMT 2025","failed","Sun Apr 27 20:16:08 GMT 2025","Bulk Upload > Bulk Event","Shipping Event","",""
+"","248","Total Events Count - Empty Fields","Assurdly | Shipper API","Sun Apr 27 20:15:59 GMT 2025","failed","Sun Apr 27 20:15:59 GMT 2025","Total Event Count","Events Records","",""
+"","239","Get trading partner","Assurdly | Shipper API","Sun Apr 27 20:16:07 GMT 2025","passed","Sun Apr 27 20:16:07 GMT 2025","Shipping > Get Trading Pertner","Shipping Event","",""
+"","254","Set Preference","Assurdly | Shipper API","Sun Apr 27 20:15:56 GMT 2025","passed","Sun Apr 27 20:15:56 GMT 2025","Preference > Set UOM Preference","Home","",""
+"","1081","Login - Valid Credentials","Assurdly | Shipper API","Sun Apr 27 20:15:53 GMT 2025","passed","Sun Apr 27 20:15:54 GMT 2025","Login","Authentication","",""
+"","242","Get column mapper state","Assurdly | Shipper API","Sun Apr 27 20:16:08 GMT 2025","passed","Sun Apr 27 20:16:08 GMT 2025","Bulk Upload > Column Mapped State","Shipping Event","",""
+"","311","Get Product Instance Shared with Government - Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Sun Apr 27 20:16:02 GMT 2025","failed","Sun Apr 27 20:16:02 GMT 2025","","Shared With Government","",""
+"","894","Get Product Instance Shared With Government Stats","Assurdly | Shipper API","Sun Apr 27 20:16:02 GMT 2025","passed","Sun Apr 27 20:16:03 GMT 2025","","Shared With Government","",""
+"","146","Tour Status","Assurdly | Shipper API","Sun Apr 27 20:15:55 GMT 2025","passed","Sun Apr 27 20:15:55 GMT 2025","Tour","Home","",""
+"","135","Login - Invalid Credentials - Missing Password","Assurdly | Shipper API","Sun Apr 27 20:15:54 GMT 2025","failed","Sun Apr 27 20:15:54 GMT 2025","Login","Authentication","",""
+"","260","Get FQS","Assurdly | Shipper API","Sun Apr 27 20:16:08 GMT 2025","passed","Sun Apr 27 20:16:09 GMT 2025","","FQS","",""
+"","314","Get Product Instance Shared with Government","Assurdly | Shipper API","Sun Apr 27 20:16:02 GMT 2025","failed","Sun Apr 27 20:16:02 GMT 2025","","Shared With Government","",""
+"","251","Get Preference","Assurdly | Shipper API","Sun Apr 27 20:15:55 GMT 2025","failed","Sun Apr 27 20:15:56 GMT 2025","Preference > Fetch UOM Preference","Home","",""
+"","250","Total Events Count","Assurdly | Shipper API","Sun Apr 27 20:15:59 GMT 2025","passed","Sun Apr 27 20:15:59 GMT 2025","Total Event Count","Events Records","",""
+"","138","Login - Invalid Credentials - Missing Email","Assurdly | Shipper API","Sun Apr 27 20:15:54 GMT 2025","passed","Sun Apr 27 20:15:54 GMT 2025","Login","Authentication","",""
+"","242","Get product id - Empty fields","Assurdly | Shipper API","Sun Apr 27 20:16:07 GMT 2025","passed","Sun Apr 27 20:16:07 GMT 2025","Shipping > Get Product Id","Shipping Event","",""
+"","297","Notifications","Assurdly | Shipper API","Sun Apr 27 20:15:54 GMT 2025","failed","Sun Apr 27 20:15:55 GMT 2025","Notification","Home","",""
+"","269","Get Sites","Assurdly | Shipper API","Sun Apr 27 20:16:04 GMT 2025","passed","Sun Apr 27 20:16:05 GMT 2025","Shipping > Get Sites","Shipping Event","",""
+"","868","Get Product Instance Graph Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Sun Apr 27 20:16:01 GMT 2025","failed","Sun Apr 27 20:16:02 GMT 2025","","Product Instances","",""
+"","246","Get Share FQS","Assurdly | Shipper API","Sun Apr 27 20:16:09 GMT 2025","failed","Sun Apr 27 20:16:09 GMT 2025","","FQS","",""
+"","344","Get Share FQS - No auth","Assurdly | Shipper API","Sun Apr 27 20:16:09 GMT 2025","passed","Sun Apr 27 20:16:10 GMT 2025","","FQS","",""
+"","263","Get FQS Invalid Field","Assurdly | Shipper API","Sun Apr 27 20:16:09 GMT 2025","failed","Sun Apr 27 20:16:09 GMT 2025","","FQS","",""
+"","246","Get all config types","Assurdly | Shipper API","Sun Apr 27 20:16:05 GMT 2025","passed","Sun Apr 27 20:16:05 GMT 2025","Shipping > Config Types","Shipping Event","",""
+"### Get Producer Total Events
+
+This API endpoint is used to retrieve total events for a specific producer from the dashboard.
+
+#### Request Body
+
+- `request_type` (string, optional): Type of request.
+    
+- `product_type` (string, optional): Type of product.
+    
+- `fqs_type` (string): Type of FQS.
+    
+- `from_date` (string): Start date for the event search.
+    
+- `to_date` (string): End date for the event search.
+    
+- `product_category` (string, optional): Category of the product.
+    
+
+#### Response Body
+
+The response is in JSON format and follows the schema below:
+
+``` json
+{
+  ""Data"": [
+    {
+      ""event_id"": """",
+      ""events_comments"": [
+        {
+          ""_id"": """",
+          ""event_id"": """",
+          ""comments"": """",
+          ""user_name"": """",
+          ""timestamp"": """"
+        }
+      ],
+      ""event_type"": """",
+      ""event_location"": {
+        ""id"": """",
+        ""name"": """"
+      },
+      ""trading_partner"": {
+        ""id"": """",
+        ""name"": """"
+      },
+      ""activity"": {
+        ""type"": """",
+        ""no"": """"
+      },
+      ""data_capture_time"": """",
+      ""batches"": [
+        {
+          ""type"": """",
+          ""manufacturer"": {
+            ""id"": """",
+            ""type"": """"
+          },
+          ""product"": {
+            ""id"": """",
+            ""type"": """"
+          },
+          ""product_instance"": {
+            ""id"": """",
+            ""type"": """"
+          }
+        }
+      ]
+    }
+  ],
+  ""Filters"": {
+    ""manufacturer"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""tradPartner"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""eventLocation"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""productId"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""activityType"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""activityNumber"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ],
+    ""prodInstance"": [
+      {
+        ""value"": """",
+        ""label"": """"
+      }
+    ]
+  }
+}
+
+ ```","575","Total Event - Empty Fields","Assurdly | Shipper API","Sun Apr 27 20:15:58 GMT 2025","failed","Sun Apr 27 20:15:59 GMT 2025","Total Event","Events Records","",""
