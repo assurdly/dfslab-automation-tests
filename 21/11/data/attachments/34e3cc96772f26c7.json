@@ -1,0 +1,14 @@
+{
+    "referrer-policy": "no-referrer",
+    "x-frame-options": "SAMEORIGIN",
+    "strict-transport-security": "max-age=31536000; includeSubDomains",
+    "cache-control": "no-store",
+    "x-content-type-options": "nosniff",
+    "pragma": "no-cache",
+    "x-xss-protection": "1; mode=block",
+    "content-type": "application/json",
+    "content-length": "3354",
+    "x-envoy-upstream-service-time": "6",
+    "date": "Sun, 27 Apr 2025 20:13:10 GMT",
+    "server": "istio-envoy"
+}

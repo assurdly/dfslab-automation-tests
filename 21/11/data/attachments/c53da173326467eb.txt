@@ -1,0 +1,7 @@
+{
+    "participant": {
+        "type": "GLN",
+        "id": "6150000098765"
+    },
+    "trading_partner_type": "GLN"
+}
