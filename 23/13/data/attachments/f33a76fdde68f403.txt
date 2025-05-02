@@ -1,1 +1,0 @@
-{"Shipping":234,"Receiving":5543}
