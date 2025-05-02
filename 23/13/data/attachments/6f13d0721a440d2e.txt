@@ -1,5 +1,0 @@
-{
-    "product_type": "Edible Oil",
-    "fqs_type": "Vitamin A",
-    "requestType": "table_preview"
-}
