@@ -1,0 +1,54 @@
+{
+    "event": {
+        "original_event_id": "",
+        "event_type": "",
+        "event_location": {
+            "id": "",
+            "type": ""
+        },
+        "data_owner": {
+            "type": "",
+            "id": ""
+        },
+        "trading_partner": {
+            "id": "",
+            "type": ""
+        },
+        "activity_type": "",
+        "activity_number": "",
+        "data_capture_time": "",
+        "event_comments": "",
+        "user_name": ""
+    },
+    "in_products": [
+        {
+            "product_instance_id": {
+                "id": "",
+                "type": ""
+            },
+            "product_id": {
+                "id": "",
+                "type": ""
+            },
+            "manufacturer": {
+                "id": "",
+                "type": ""
+            },
+            "composition": {
+                "analysis": {
+                    "date": "",
+                    "method": ""
+                },
+                "components": [
+                    {
+                        "name": "",
+                        "type": "",
+                        "value": "",
+                        "uom": "",
+                        "semi_quanitive": []
+                    }
+                ]
+            }
+        }
+    ]
+}
