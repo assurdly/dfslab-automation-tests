@@ -1,0 +1,17 @@
+{
+    "userName": "Osborne_Kreiger",
+    "firstName": "Test",
+    "lastName": "Api",
+    "emailId": "Loyal37@hotmail.com",
+    "organization": "GLN:6150000098765",
+    "rolesList": [
+        {
+            "id": "b8c4f9e9-4e3c-4cef-9017-26428afa193a",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
