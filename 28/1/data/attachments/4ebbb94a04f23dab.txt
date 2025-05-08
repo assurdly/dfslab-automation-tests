@@ -1,8 +1,0 @@
-{
-    "userName": "Test_now",
-    "firstName": "Test",
-    "lastName": "now",
-    "emailId": "testing@mailinator.com",
-    "organization": "GLN:6150000098765"
-    
-}

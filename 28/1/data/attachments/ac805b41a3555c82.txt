@@ -1,0 +1,6 @@
+{
+    "participant": "GLN:4041865000021",
+    "brands": [
+        "681cba191d6fe456f6e34876"
+    ]
+}

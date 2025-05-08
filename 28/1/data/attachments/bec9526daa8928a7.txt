@@ -1,0 +1,1 @@
+{"success":true,"data":[],"details":{"message":"Brand(s) deleted successfully","detail":""}}

@@ -1,7 +1,0 @@
-{
-    "userName": "test_a",
-    "firstName": "Test",
-    "lastName": "Pai",
-    "emailId": "testpa@mailinator.com"
-   
-}
