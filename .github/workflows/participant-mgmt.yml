@@ -44,7 +44,7 @@ jobs:
           path: gh-pages
 
       - name: Wait for 30 seconds before publishing
-        run: sleep 30
+        run: sleep 60
 
       - name: Find latest folder number
         id: get_latest_folder
@@ -89,7 +89,7 @@ jobs:
 
       - name: Wait before deploying to GitHub Pages
         if: always()
-        run: sleep 30
+        run: sleep 60
 
       - name: Deploy report to GitHub Pages
         id: deploy

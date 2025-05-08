@@ -7,6 +7,398 @@
 	},
 	"item": [
 		{
+			"name": "Authentication",
+			"item": [
+				{
+					"name": "Login",
+					"item": [
+						{
+							"name": "Login - Valid Credentials",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const response = pm.response.json() // Compulsory for all test",
+											"pm.collectionVariables.set(\"access_token\", response.access_token); // Compulsory for all valid login tests",
+											"pm.collectionVariables.set(\"refresh_token\", response.refresh_token); // Compulsory for all  Valid login tests",
+											"",
+											"pm.test(\"Status code is 200\", () => {",
+											"    pm.response.to.have.status(200);",
+											"});",
+											"",
+											"pm.test(\"Response contains all required fields\", () => {",
+											"    pm.expect(response).to.be.an(\"object\");",
+											"    pm.expect(response).to.have.all.keys(",
+											"        \"access_token\",",
+											"        \"expires_in\",",
+											"        \"refresh_expires_in\",",
+											"        \"refresh_token\",",
+											"        \"token_type\",",
+											"        \"not-before-policy\",",
+											"        \"session_state\",",
+											"        \"scope\"",
+											"    );",
+											"});",
+											"",
+											"pm.test(\"Authentication tokens exists\", () => {",
+											"    pm.expect(response.access_token).to.be.a(\"string\").and.to.not.be.empty;",
+											"    pm.expect(response.refresh_token).to.be.a(\"string\").and.to.not.be.empty;",
+											"});",
+											"",
+											"pm.test(\"Token type is Bearer\", () => {",
+											"    pm.expect(response.token_type).to.eql(\"Bearer\");",
+											"});",
+											"",
+											"pm.test(\"Scope contains expected values\", () => {",
+											"    pm.expect(response.scope).to.include(\"email\");",
+											"    pm.expect(response.scope).to.include(\"profile\");",
+											"    pm.expect(response.scope).to.include(\"org-role\");",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								},
+								{
+									"listen": "prerequest",
+									"script": {
+										"exec": [
+											"pm.collectionVariables.set('baseUrl', 'https://demo.dfqt.org') // Should be on all. valid login"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "bearer",
+									"bearer": [
+										{
+											"key": "token",
+											"value": "{{access_token}}",
+											"type": "string"
+										}
+									]
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "grant_type",
+											"value": "password",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "gain-reporting",
+											"type": "text"
+										},
+										{
+											"key": "client_secret",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "username",
+											"value": "assurdly-user-mgmt",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "FdwHZ14u1w5XLkbiBPle",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/iam/realms/gain/protocol/openid-connect/token",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"iam",
+										"realms",
+										"gain",
+										"protocol",
+										"openid-connect",
+										"token"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login - Invalid Credentials",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const req = pm.request.body",
+											"const reqUrl = pm.request.url.path",
+											"pm.collectionVariables.set(\"reqUrl\", reqUrl);",
+											"const response = pm.response.json()",
+											"const { error_description, error } = pm.response.json()",
+											"",
+											"",
+											"pm.test(\"Test for valid error description\", () => {",
+											"    pm.expect(error_description).to.eql(\"Invalid user credentials\")",
+											"})",
+											"",
+											"pm.test(\"Test for valid error type\", () => {",
+											"    pm.expect(error).to.eql(\"invalid_grant\")",
+											"})",
+											"pm.test(\"Status code is 401 \", () => {",
+											"    pm.response.to.have.status(401);",
+											"});",
+											"pm.test(\"No access token in error response\", () => {",
+											"    const response = pm.response.json();",
+											"    pm.expect(response).to.not.have.property(\"access_token\");",
+											"    pm.expect(response).to.not.have.property(\"refresh_token\");",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "grant_type",
+											"value": "password",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "gain-reporting",
+											"type": "text"
+										},
+										{
+											"key": "client_secret",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "username",
+											"value": "-user-mgmt",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "BMA",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/iam/realms/gain/protocol/openid-connect/token",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"iam",
+										"realms",
+										"gain",
+										"protocol",
+										"openid-connect",
+										"token"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login - Invalid Credentials - Missing Password",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const req = pm.request.body",
+											"const reqUrl = pm.request.url.path",
+											"pm.collectionVariables.set(\"reqUrl\", reqUrl);",
+											"",
+											"const response = pm.response.json();",
+											"",
+											"",
+											"// Test for missing password",
+											"pm.test(\"Status code is 400\", function () {",
+											"    pm.response.to.have.status(400);",
+											"});",
+											"",
+											"pm.test(\"Error response contains 'unknown_error'\", function () {",
+											"   ",
+											"    pm.expect(response).to.have.property(\"error\", \"unknown_error\");",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "grant_type",
+											"value": "password",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "gain-reporting",
+											"type": "text"
+										},
+										{
+											"key": "client_secret",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "username",
+											"value": "assurdly-user-mgmt",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/iam/realms/gain/protocol/openid-connect/token",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"iam",
+										"realms",
+										"gain",
+										"protocol",
+										"openid-connect",
+										"token"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Login - Invalid Credentials - Missing Email",
+							"event": [
+								{
+									"listen": "test",
+									"script": {
+										"exec": [
+											"const req = pm.request.body",
+											"const reqUrl = pm.request.url.path",
+											"pm.collectionVariables.set(\"reqUrl\", reqUrl);",
+											"",
+											"const response = pm.response.json();",
+											"const { error_description, error } = pm.response.json()",
+											"",
+											"// Test for missing email",
+											"pm.test(\"Test for valid error description\", () => {",
+											"    pm.expect(error_description).to.eql(\"Invalid user credentials\")",
+											"})",
+											"",
+											"pm.test(\"Test for valid error type\", () => {",
+											"    pm.expect(error).to.eql(\"invalid_grant\")",
+											"})",
+											"pm.test(\"Status code is 401 \", () => {",
+											"    pm.response.to.have.status(401);",
+											"});",
+											"pm.test(\"No access token in error response\", () => {",
+											"    const response = pm.response.json();",
+											"    pm.expect(response).to.not.have.property(\"access_token\");",
+											"    pm.expect(response).to.not.have.property(\"refresh_token\");",
+											"});"
+										],
+										"type": "text/javascript",
+										"packages": {}
+									}
+								}
+							],
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "grant_type",
+											"value": "password",
+											"type": "text"
+										},
+										{
+											"key": "client_id",
+											"value": "gain-reporting",
+											"type": "text"
+										},
+										{
+											"key": "client_secret",
+											"value": "",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "username",
+											"value": "",
+											"type": "text"
+										},
+										{
+											"key": "password",
+											"value": "gULiHw659LN7VUJ",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "{{baseUrl}}/iam/realms/gain/protocol/openid-connect/token",
+									"host": [
+										"{{baseUrl}}"
+									],
+									"path": [
+										"iam",
+										"realms",
+										"gain",
+										"protocol",
+										"openid-connect",
+										"token"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
 			"name": "User List",
 			"item": [
 				{
