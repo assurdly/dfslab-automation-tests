@@ -1,0 +1,17 @@
+{
+    "userName": "Faye68",
+    "firstName": "Brown",
+    "lastName": "Klocko",
+    "emailId": "Emma52@hotmail.com",
+    "organization": "",
+    "rolesList": [
+        {
+            "id": "696574ee-aa2f-4c01-80f6-407d0d99e557",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
