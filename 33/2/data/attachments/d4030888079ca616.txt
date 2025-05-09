@@ -1,1 +1,0 @@
-{"success":false,"data":[],"details":{"message":"No details updated to participant","detail":""}}
