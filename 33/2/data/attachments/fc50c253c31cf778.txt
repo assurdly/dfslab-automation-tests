@@ -1,0 +1,4 @@
+{
+  "participant_id": "4041865000001",
+  "participant_type": "GLN"
+}
