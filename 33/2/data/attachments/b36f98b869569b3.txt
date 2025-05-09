@@ -1,0 +1,1 @@
+{"success":true,"data":[{"releaseVersion":"v2.05-30","releaseDate":"2025-05-07"}]}

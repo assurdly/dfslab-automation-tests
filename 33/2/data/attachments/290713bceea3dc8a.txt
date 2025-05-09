@@ -1,0 +1,5 @@
+level: log, messages: SEGMENT>>>,
+level: log, messages: First segment of path:,
+level: log, messages: Unknown path segment. No refresh will be attempted.
+level: log, messages: participant_type:,GLN
+level: log, messages: participant_id:,4041865000001
