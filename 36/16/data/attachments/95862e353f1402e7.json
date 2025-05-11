@@ -1,0 +1,10 @@
+{
+    "x-powered-by": "Express",
+    "access-control-allow-origin": "*",
+    "content-type": "application/json; charset=utf-8",
+    "content-length": "30926",
+    "etag": "W/\"78ce-fITXgQYvA2GR9+6zbq7Lj3vvOt0\"",
+    "date": "Sun, 11 May 2025 20:16:04 GMT",
+    "x-envoy-upstream-service-time": "142",
+    "server": "istio-envoy"
+}
