@@ -1,0 +1,17 @@
+{
+    "userName": "Kaylah_Cormier",
+    "firstName": "Test",
+    "lastName": "Api",
+    "emailId": "",
+    "organization": "GLN:6150000098765",
+    "rolesList": [
+        {
+            "id": "696574ee-aa2f-4c01-80f6-407d0d99e557",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
