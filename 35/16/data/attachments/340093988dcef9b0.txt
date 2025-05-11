@@ -1,0 +1,10 @@
+{
+    "manufacturer": {
+        "type": "GLN",
+        "id": "6150000098765"
+    },
+    "product_id": {
+        "type": "GTIN",
+        "id": "6152314126789"
+    }
+}
