@@ -1,0 +1,11 @@
+{
+    "Accept": "application/json",
+    "User-Agent": "PostmanRuntime/7.39.1",
+    "Cache-Control": "no-cache",
+    "Postman-Token": "39edbdfb-db87-4765-973c-d219b01e4ec8",
+    "Host": "demo.dfqt.org",
+    "Accept-Encoding": "gzip, deflate, br",
+    "Connection": "keep-alive",
+    "Cookie": "_oauth2_proxy_csrf_apHm6AZD=wTYFaulRn6kFSejKXTj3APtKW84qVaVzaEdI0if08iuJaANZutjR_cQRBEV7Bz4PzgH18AN_0pRH26WKi-yQQU8A-Mac1DNuWIg7HC5HtC4qf3Sr9y07xKw=|1746994907|-KsLxCbCObnzg6ZlmJNpsfQQtYcJyAV26AHdTqoQMKs=",
+    "Content-Length": "0"
+}
