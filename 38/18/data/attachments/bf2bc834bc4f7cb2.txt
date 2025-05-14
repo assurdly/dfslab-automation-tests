@@ -1,7 +1,0 @@
-{
-    "product_type": "Edible Oil",
-    "fqs_type": "Vitamin A",
-    "from_date": "2025-01-01T00:00:00",
-    "to_date": "2025-04-01T12:25:42",
-    "product_category": ""
-}
