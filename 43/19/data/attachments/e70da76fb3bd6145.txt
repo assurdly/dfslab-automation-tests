@@ -1,0 +1,1 @@
+{"event_location":"6150000098765","manufacturer":{"type":"GLN"}}

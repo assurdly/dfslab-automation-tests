@@ -1,1 +1,0 @@
-{"tradingPartner":{"id":"4041865000001","type":"GLN"},"activityType":"Bill of Lading","participantInfo":{"id":"6150000098765","type":"GLN"}}

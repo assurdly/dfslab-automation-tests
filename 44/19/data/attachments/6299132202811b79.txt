@@ -1,0 +1,9 @@
+{
+    "participant_id": "",
+    "participant_type": "",
+    "event_type": "",
+    "trading_partner": {
+        "type": "",
+        "id": ""
+    }
+}
