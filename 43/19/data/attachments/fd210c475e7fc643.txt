@@ -1,9 +1,0 @@
-{
-    "manufacturer": {
-        "type": "",
-        "id": ""
-    },
-    "productId": {
-        "type": ""
-    }
-}
