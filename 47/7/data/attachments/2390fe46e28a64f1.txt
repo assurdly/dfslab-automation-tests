@@ -1,0 +1,11 @@
+{
+    "participant": "GLN:4041865000021",
+    "brands": [
+        {
+            "brand_name": "band"
+        },
+        {
+            "brand_name": "band"
+        }
+    ]
+}
