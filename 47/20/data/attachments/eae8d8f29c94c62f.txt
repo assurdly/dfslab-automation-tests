@@ -1,6 +1,0 @@
-{
-    "participantId": {
-        "type": "GLN",
-        "id": "8900000098765"
-    }
-}

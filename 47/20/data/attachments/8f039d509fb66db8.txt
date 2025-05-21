@@ -1,9 +1,0 @@
-{
-    "participant_id": "4041865000001",
-    "participant_type": "GLN",
-    "event_type": "Shipping",
-    "trading_partner": {
-        "type": "GLN",
-        "id": "8900000098765"
-    }
-}
