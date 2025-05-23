@@ -1,0 +1,5 @@
+{
+    "manufacturer_id": "bhgft",
+    "product_id": "gtf",
+    "product_instance": "bygg"
+}
