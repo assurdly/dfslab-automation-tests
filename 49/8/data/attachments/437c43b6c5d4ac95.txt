@@ -1,0 +1,14 @@
+{
+    "site_name": "{{randomname}}",
+    "site_address": "490 Marks Vista",
+    "site_city": "Lagos",
+    "site_country": "Nigeria",
+    "site_state": "Lagos State",
+    "site_zipcode": "100001",
+    "location": "GLN:5444444444444",
+    "participant": "GLN:4041865000021",
+    "coordinates": {
+        "latitude": "9.6774",
+        "longitude": "-174.5100"
+    }
+}
