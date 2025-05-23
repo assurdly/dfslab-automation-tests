@@ -1,0 +1,17 @@
+{
+    "userName": "Jany14",
+    "firstName": "Flavio",
+    "lastName": "Donnelly",
+    "emailId": "Taurean.Krajcik89@gmail.com",
+    "organization": "",
+    "rolesList": [
+        {
+            "id": "",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
