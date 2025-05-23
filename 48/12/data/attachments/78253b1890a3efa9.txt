@@ -1,3 +1,0 @@
-{
-    "emailId": "testapi@mailinator.com"
-}
