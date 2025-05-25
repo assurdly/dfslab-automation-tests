@@ -1,5 +1,0 @@
-{
-    "manufacturer_id": "6150000098765",
-    "manufacturer_type": "GLN",
-    "product_type": "GTIN"
-}
