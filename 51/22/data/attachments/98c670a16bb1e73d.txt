@@ -1,0 +1,1 @@
+{"uom":"IU/g","minimum":0,"maximum":35000,"mean":4499.06,"anomalies":12}

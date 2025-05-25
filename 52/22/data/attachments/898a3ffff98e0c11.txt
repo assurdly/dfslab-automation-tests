@@ -1,0 +1,52 @@
+const path = pm.collectionVariables.get("reqPath") || "";
+const firstSegment = path[0] // to extract first path segment
+console.log("SEGMENT>>>", firstSegment)
+console.log("First segment of path:", firstSegment);
+
+const clientIdMap = {
+    "recording": "gain-connector",
+    "dashboard-api": "gain-reporting",
+    "user": "gain-user-management",
+    "ingest-api": "gain-reporting"
+};
+
+const client_id = clientIdMap[firstSegment];
+if (!client_id) {
+    console.log("Unknown path segment. No refresh will be attempted.");
+    return;
+}
+
+console.log("Using client_id:", client_id);
+
+let refresh_token = pm.collectionVariables.get('refresh_token');
+if (!refresh_token) {
+    console.log("No refresh token available.");
+    return;
+}
+
+pm.sendRequest({
+    url: "https://demo.dfqt.org/iam/realms/gain/protocol/openid-connect/token",
+    method: "POST",
+    header: {
+        "Content-Type": "application/x-www-form-urlencoded"
+    },
+    body: {
+        mode: "urlencoded",
+        urlencoded: [
+            { key: "grant_type", value: "refresh_token" },
+            { key: "refresh_token", value: refresh_token },
+            { key: "client_id", value: client_id }
+        ]
+    }
+}, function (err, response) {
+    if (err) {
+        console.log("Error fetching token:", err);
+    } else {
+        let jsonResponse = response.json();
+        console.log("Token Response:", jsonResponse);
+        if (jsonResponse.access_token) {
+            pm.collectionVariables.set("access_token", jsonResponse.access_token);
+            pm.collectionVariables.set("refresh_token", jsonResponse.refresh_token);
+        }
+    }
+});

@@ -1,0 +1,4 @@
+level: log, messages: SEGMENT>>>,ingest-api
+level: log, messages: First segment of path:,ingest-api
+level: log, messages: Using client_id:,gain-reporting
+level: log, messages: Token Response:,[object Object]
