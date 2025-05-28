@@ -1,0 +1,14 @@
+{
+    "site_name": "{{randomname}}",
+    "site_address": "4527 Kertzmann Orchard",
+    "site_city": "Lagos",
+    "site_country": "Nigeria",
+    "site_state": "Lagos State",
+    "site_zipcode": "100001",
+    "location": "GLN:5444444444444",
+    "participant": "GLN:4041865000021",
+    "coordinates": {
+        "latitude": "-28.1393",
+        "longitude": "126.5040"
+    }
+}

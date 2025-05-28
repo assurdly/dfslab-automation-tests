@@ -1,7 +1,0 @@
-{
-    "notifications": [
-        {
-            "notificationId": "67f78905fc08966a621d40ba"
-        }
-    ]
-}
