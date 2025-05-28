@@ -1,0 +1,7 @@
+{
+    "dataOwner": {
+        "type": "GLN",
+        "id": "4041865000001"
+    },
+    "eventType": "Shipping"
+}

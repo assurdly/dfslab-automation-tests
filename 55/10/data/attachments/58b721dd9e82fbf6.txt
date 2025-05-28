@@ -1,8 +1,0 @@
-{
-    "company_name": "",
-    "participant": "",
-    "company_type": "",
-    "contact": "",
-    "website": "",
-    "phonenumber": ""
-}
