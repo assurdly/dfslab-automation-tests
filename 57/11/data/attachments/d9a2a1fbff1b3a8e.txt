@@ -1,0 +1,14 @@
+{
+    "site_name": "The site name for test",
+    "site_address": "Magodo bus stop",
+    "site_city": "Lagos",
+    "site_country": "Nigeria",
+    "site_state": "Lagos State",
+    "site_zipcode": "100001",
+    "location": "GLN:4041865000021",
+    "participant": "GLN:4041865000021",
+    "coordinates": {
+        "latitude": "37.774",
+        "longitude": 67.7883
+    }
+}
