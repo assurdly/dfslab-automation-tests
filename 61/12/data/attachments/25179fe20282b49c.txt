@@ -1,0 +1,14 @@
+{
+    "site_name": "{{randomname}}",
+    "site_address": "78609 Quitzon Ford",
+    "site_city": "Lagos",
+    "site_country": "Nigeria",
+    "site_state": "Lagos State",
+    "site_zipcode": "100001",
+    "location": "GLN:5444444444444",
+    "participant": "GLN:4041865000021",
+    "coordinates": {
+        "latitude": "-9.8191",
+        "longitude": "46.1324"
+    }
+}
