@@ -1,1 +1,0 @@
-{"success":true,"message":"Product IDs retrieved successfully","data":[{"value":"6152314125555","label":"6152314125555"},{"value":"6152314126789","label":"6152314126789"},{"value":"product_009","label":"product_009"},{"value":"MGP_OUT_060325_01","label":"MGP_OUT_060325_01"},{"value":"PD_0002","label":"PD_0002"}],"error":null}
