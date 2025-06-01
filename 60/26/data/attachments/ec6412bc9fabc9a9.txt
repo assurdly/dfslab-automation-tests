@@ -1,0 +1,5 @@
+{
+    "activity_type": "Bill of Lading",
+    "activity_number": "Azeez_09876",
+    "shipping_to": "6150000098765"
+}
