@@ -1,0 +1,17 @@
+{
+    "userName": "Ivy.Mohr11",
+    "firstName": "Test",
+    "lastName": "Api",
+    "emailId": "Alfreda86@hotmail.com",
+    "organization": "GLN:6150000098765",
+    "rolesList": [
+        {
+            "id": "",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
