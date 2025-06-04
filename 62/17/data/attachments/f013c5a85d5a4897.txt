@@ -1,0 +1,17 @@
+{
+    "userName": "Matilda.Jacobs47",
+    "firstName": "Elroy",
+    "lastName": "Streich",
+    "emailId": "Hal66@hotmail.com",
+    "organization": "",
+    "rolesList": [
+        {
+            "id": "",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
