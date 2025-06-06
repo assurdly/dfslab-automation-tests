@@ -1,0 +1,17 @@
+{
+    "userName": "Jadyn.Fahey15",
+    "firstName": "Rod",
+    "lastName": "Crist",
+    "emailId": "Uriah25@yahoo.com",
+    "organization": "",
+    "rolesList": [
+        {
+            "id": "",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
