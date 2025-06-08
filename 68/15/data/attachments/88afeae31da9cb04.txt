@@ -1,0 +1,14 @@
+{
+    "site_name": "{{randomname}}",
+    "site_address": "944 Casper Viaduct",
+    "site_city": "Lagos",
+    "site_country": "Nigeria",
+    "site_state": "Lagos State",
+    "site_zipcode": "100001",
+    "location": "GLN:5444444444444",
+    "participant": "GLN:4041865000021",
+    "coordinates": {
+        "latitude": "-69.6717",
+        "longitude": "70.3850"
+    }
+}
