@@ -1,0 +1,17 @@
+{
+    "userName": "Novella.Donnelly",
+    "firstName": "Gregoria",
+    "lastName": "Johnson",
+    "emailId": "Winifred_Huel57@yahoo.com",
+    "organization": "",
+    "rolesList": [
+        {
+            "id": "",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
