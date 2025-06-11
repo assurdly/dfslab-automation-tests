@@ -1,165 +1,71 @@
 "DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"","354","Participant Details","Assurdly | Shipper API","Wed Jun 11 18:49:07 GMT 2025","passed","Wed Jun 11 18:49:07 GMT 2025","Participant","Home","",""
-"","350","Set Preference","Assurdly | Shipper API","Wed Jun 11 18:49:08 GMT 2025","failed","Wed Jun 11 18:49:08 GMT 2025","Preference > Set UOM Preference","Home","",""
-"","347","Get participant details","Assurdly | Shipper API","Wed Jun 11 18:49:21 GMT 2025","passed","Wed Jun 11 18:49:21 GMT 2025","Shipping > Get Participant Details","Shipping Event","",""
-"","191","Tour Status","Assurdly | Shipper API","Wed Jun 11 18:49:07 GMT 2025","passed","Wed Jun 11 18:49:07 GMT 2025","Tour","Home","",""
-"","350","Total Events Count - Empty Fields","Assurdly | Shipper API","Wed Jun 11 18:49:12 GMT 2025","failed","Wed Jun 11 18:49:12 GMT 2025","Total Event Count","Events Records","",""
-"","188","Read Notification","Assurdly | Shipper API","Wed Jun 11 18:49:06 GMT 2025","passed","Wed Jun 11 18:49:07 GMT 2025","Notification","Home","",""
-"","341","Get label","Assurdly | Shipper API","Wed Jun 11 18:49:19 GMT 2025","passed","Wed Jun 11 18:49:20 GMT 2025","Shipping > Get Labels","Shipping Event","",""
-"","346","Set uom Preference - Empty Value","Assurdly | Shipper API","Wed Jun 11 18:49:08 GMT 2025","failed","Wed Jun 11 18:49:08 GMT 2025","Preference > Set UOM Preference","Home","",""
-"","188","Read Notification - Invalid Notification id","Assurdly | Shipper API","Wed Jun 11 18:49:07 GMT 2025","failed","Wed Jun 11 18:49:07 GMT 2025","Notification","Home","",""
-"","344","Get participant details - Empty Fields","Assurdly | Shipper API","Wed Jun 11 18:49:21 GMT 2025","failed","Wed Jun 11 18:49:22 GMT 2025","Shipping > Get Participant Details","Shipping Event","",""
-"","1030","Dashboard Filter","Assurdly | Shipper API","Wed Jun 11 18:49:08 GMT 2025","passed","Wed Jun 11 18:49:09 GMT 2025","Stats","Dashboard","",""
-"","348","Get Share FQS Invalid Field","Assurdly | Shipper API","Wed Jun 11 18:49:25 GMT 2025","passed","Wed Jun 11 18:49:25 GMT 2025","","FQS","",""
-"","1015","Get Product Instance Graph","Assurdly | Shipper API","Wed Jun 11 18:49:13 GMT 2025","passed","Wed Jun 11 18:49:14 GMT 2025","","Product Instances","",""
-"","1030","Get Product Instance Shared With Government Stats","Assurdly | Shipper API","Wed Jun 11 18:49:16 GMT 2025","passed","Wed Jun 11 18:49:17 GMT 2025","","Shared With Government","",""
-"","438","Notifications","Assurdly | Shipper API","Wed Jun 11 18:49:06 GMT 2025","failed","Wed Jun 11 18:49:06 GMT 2025","Notification","Home","",""
-"","360","Get FQS","Assurdly | Shipper API","Wed Jun 11 18:49:24 GMT 2025","passed","Wed Jun 11 18:49:24 GMT 2025","","FQS","",""
-"","349","Total Events Count","Assurdly | Shipper API","Wed Jun 11 18:49:12 GMT 2025","passed","Wed Jun 11 18:49:12 GMT 2025","Total Event Count","Events Records","",""
-"","347","Get all config types","Assurdly | Shipper API","Wed Jun 11 18:49:19 GMT 2025","passed","Wed Jun 11 18:49:19 GMT 2025","Shipping > Config Types","Shipping Event","",""
-"","987","Login - Valid Credentials","Assurdly | Shipper API","Wed Jun 11 18:49:04 GMT 2025","passed","Wed Jun 11 18:49:05 GMT 2025","Login","Authentication","",""
-"","1024","Get Product Instance Shared With Government Stats - Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Wed Jun 11 18:49:17 GMT 2025","failed","Wed Jun 11 18:49:18 GMT 2025","","Shared With Government","",""
-"","343","Get tooltips","Assurdly | Shipper API","Wed Jun 11 18:49:19 GMT 2025","passed","Wed Jun 11 18:49:19 GMT 2025","Shipping > Get Tooltips","Shipping Event","",""
-"","497","Get Share FQS - No auth","Assurdly | Shipper API","Wed Jun 11 18:49:25 GMT 2025","passed","Wed Jun 11 18:49:26 GMT 2025","","FQS","",""
-"","379","Total Event","Assurdly | Shipper API","Wed Jun 11 18:49:10 GMT 2025","passed","Wed Jun 11 18:49:11 GMT 2025","Total Event","Events Records","",""
-"","351","Get preference","Assurdly | Shipper API","Wed Jun 11 18:49:20 GMT 2025","passed","Wed Jun 11 18:49:21 GMT 2025","Shipping > Get Preference","Shipping Event","",""
-"","384","Get Sites","Assurdly | Shipper API","Wed Jun 11 18:49:18 GMT 2025","passed","Wed Jun 11 18:49:19 GMT 2025","Shipping > Get Sites","Shipping Event","",""
-"","185","Login - Invalid Credentials - Missing Password","Assurdly | Shipper API","Wed Jun 11 18:49:06 GMT 2025","failed","Wed Jun 11 18:49:06 GMT 2025","Login","Authentication","",""
-"","420","Get Product Instance Shared with Government - Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Wed Jun 11 18:49:16 GMT 2025","failed","Wed Jun 11 18:49:16 GMT 2025","","Shared With Government","",""
-"","350","Get Preference","Assurdly | Shipper API","Wed Jun 11 18:49:07 GMT 2025","failed","Wed Jun 11 18:49:08 GMT 2025","Preference > Fetch UOM Preference","Home","",""
-"","191","Login - Invalid Credentials - Missing Email","Assurdly | Shipper API","Wed Jun 11 18:49:06 GMT 2025","passed","Wed Jun 11 18:49:06 GMT 2025","Login","Authentication","",""
-"","345","Get trading partner","Assurdly | Shipper API","Wed Jun 11 18:49:23 GMT 2025","passed","Wed Jun 11 18:49:23 GMT 2025","Shipping > Get Trading Pertner","Shipping Event","",""
-"","406","Get Product Instance Shared with Government","Assurdly | Shipper API","Wed Jun 11 18:49:15 GMT 2025","failed","Wed Jun 11 18:49:16 GMT 2025","","Shared With Government","",""
-"","344","Get preference - Empty Fields","Assurdly | Shipper API","Wed Jun 11 18:49:21 GMT 2025","failed","Wed Jun 11 18:49:21 GMT 2025","Shipping > Get Preference","Shipping Event","",""
-"","372","Creating Shipping Event","Assurdly | Shipper API","Wed Jun 11 18:49:23 GMT 2025","passed","Wed Jun 11 18:49:23 GMT 2025","Single Event","Shipping Event","",""
-"","347","Get Labels - Empty Fields","Assurdly | Shipper API","Wed Jun 11 18:49:20 GMT 2025","failed","Wed Jun 11 18:49:20 GMT 2025","Shipping > Get Labels","Shipping Event","",""
-"","342","Get column mapper state","Assurdly | Shipper API","Wed Jun 11 18:49:23 GMT 2025","passed","Wed Jun 11 18:49:24 GMT 2025","Bulk Upload > Column Mapped State","Shipping Event","",""
-"","351","Get FQS Invalid Field","Assurdly | Shipper API","Wed Jun 11 18:49:24 GMT 2025","failed","Wed Jun 11 18:49:25 GMT 2025","","FQS","",""
-"","351","Get Labels - Case Sensitive Event Type","Assurdly | Shipper API","Wed Jun 11 18:49:20 GMT 2025","failed","Wed Jun 11 18:49:20 GMT 2025","Shipping > Get Labels","Shipping Event","",""
-"","1011","Get Product Instance Graph Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Wed Jun 11 18:49:14 GMT 2025","failed","Wed Jun 11 18:49:15 GMT 2025","","Product Instances","",""
-"","1023","Dashboard Filter - Empty Required Fields","Assurdly | Shipper API","Wed Jun 11 18:49:09 GMT 2025","failed","Wed Jun 11 18:49:10 GMT 2025","Stats","Dashboard","",""
-"","352","Get events information","Assurdly | Shipper API","Wed Jun 11 18:49:12 GMT 2025","passed","Wed Jun 11 18:49:13 GMT 2025","Event Information","Events Records","",""
-"","345","Get Share FQS","Assurdly | Shipper API","Wed Jun 11 18:49:25 GMT 2025","failed","Wed Jun 11 18:49:25 GMT 2025","","FQS","",""
-"","345","Get product id - Empty fields","Assurdly | Shipper API","Wed Jun 11 18:49:22 GMT 2025","passed","Wed Jun 11 18:49:23 GMT 2025","Shipping > Get Product Id","Shipping Event","",""
-"","346","Get product id","Assurdly | Shipper API","Wed Jun 11 18:49:22 GMT 2025","passed","Wed Jun 11 18:49:22 GMT 2025","Shipping > Get Product Id","Shipping Event","",""
-"","268","Login - Invalid Credentials","Assurdly | Shipper API","Wed Jun 11 18:49:05 GMT 2025","passed","Wed Jun 11 18:49:06 GMT 2025","Login","Authentication","",""
-"","391","Get Product Instance - Invalid Request (missing or incomplete field)","Assurdly | Shipper API","Wed Jun 11 18:49:13 GMT 2025","failed","Wed Jun 11 18:49:13 GMT 2025","","Product Instances","",""
-"","392","Get Product Instance","Assurdly | Shipper API","Wed Jun 11 18:49:13 GMT 2025","failed","Wed Jun 11 18:49:13 GMT 2025","","Product Instances","",""
-"","350","Bulk event","Assurdly | Shipper API","Wed Jun 11 18:49:24 GMT 2025","failed","Wed Jun 11 18:49:24 GMT 2025","Bulk Upload > Bulk Event","Shipping Event","",""
-"### Get Producer Total Events
-
-This API endpoint is used to retrieve total events for a specific producer from the dashboard.
-
-#### Request Body
-
-- `request_type` (string, optional): Type of request.
-    
-- `product_type` (string, optional): Type of product.
-    
-- `fqs_type` (string): Type of FQS.
-    
-- `from_date` (string): Start date for the event search.
-    
-- `to_date` (string): End date for the event search.
-    
-- `product_category` (string, optional): Category of the product.
-    
-
-#### Response Body
-
-The response is in JSON format and follows the schema below:
-
-``` json
-{
-  ""Data"": [
-    {
-      ""event_id"": """",
-      ""events_comments"": [
-        {
-          ""_id"": """",
-          ""event_id"": """",
-          ""comments"": """",
-          ""user_name"": """",
-          ""timestamp"": """"
-        }
-      ],
-      ""event_type"": """",
-      ""event_location"": {
-        ""id"": """",
-        ""name"": """"
-      },
-      ""trading_partner"": {
-        ""id"": """",
-        ""name"": """"
-      },
-      ""activity"": {
-        ""type"": """",
-        ""no"": """"
-      },
-      ""data_capture_time"": """",
-      ""batches"": [
-        {
-          ""type"": """",
-          ""manufacturer"": {
-            ""id"": """",
-            ""type"": """"
-          },
-          ""product"": {
-            ""id"": """",
-            ""type"": """"
-          },
-          ""product_instance"": {
-            ""id"": """",
-            ""type"": """"
-          }
-        }
-      ]
-    }
-  ],
-  ""Filters"": {
-    ""manufacturer"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""tradPartner"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""eventLocation"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""productId"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""activityType"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""activityNumber"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ],
-    ""prodInstance"": [
-      {
-        ""value"": """",
-        ""label"": """"
-      }
-    ]
-  }
-}
-
- ```","745","Total Event - Empty Fields","Assurdly | Shipper API","Wed Jun 11 18:49:11 GMT 2025","failed","Wed Jun 11 18:49:12 GMT 2025","Total Event","Events Records","",""
+"","272","Get Product Instance Graph Invalid Field","Assurdly | Producer API","Wed Jun 11 18:50:08 GMT 2025","failed","Wed Jun 11 18:50:08 GMT 2025","","Product Instances","",""
+"","230","Tour Status","Assurdly | Producer API","Wed Jun 11 18:49:55 GMT 2025","passed","Wed Jun 11 18:49:55 GMT 2025","Tour","Home","",""
+"","383","Get Analysis Manufacturers - No Auth","Assurdly | Producer API","Wed Jun 11 18:50:14 GMT 2025","passed","Wed Jun 11 18:50:14 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","150","Login - Invalid Credentials - Missing Email","Assurdly | Producer API","Wed Jun 11 18:49:55 GMT 2025","passed","Wed Jun 11 18:49:55 GMT 2025","Login","Authentication","",""
+"","275","Get all config types","Assurdly | Producer API","Wed Jun 11 18:50:10 GMT 2025","passed","Wed Jun 11 18:50:10 GMT 2025","Analysis > Config Types","Analysis Event","",""
+"","267","Create Bulk Event","Assurdly | Producer API","Wed Jun 11 18:50:15 GMT 2025","failed","Wed Jun 11 18:50:16 GMT 2025","","Analysis Event","",""
+"","270","Get all config types","Assurdly | Producer API","Wed Jun 11 18:50:03 GMT 2025","passed","Wed Jun 11 18:50:03 GMT 2025","Transformation > Config Types","Transformation Event","",""
+"","269","Get Analysis Manufacturers","Assurdly | Producer API","Wed Jun 11 18:50:14 GMT 2025","passed","Wed Jun 11 18:50:15 GMT 2025","Analysis Instance Ids","Analysis Event","",""
+"","273","Get Preference - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:03 GMT 2025","failed","Wed Jun 11 18:50:04 GMT 2025","Transformation > Get Preference","Transformation Event","",""
+"","275","Get Analysis Product Ids - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:13 GMT 2025","passed","Wed Jun 11 18:50:14 GMT 2025","Analysis Product Ids","Analysis Event","",""
+"","286","Get Labels - Case Sensitive Event Type","Assurdly | Producer API","Wed Jun 11 18:50:12 GMT 2025","failed","Wed Jun 11 18:50:12 GMT 2025","Analysis > Get Labels (for Frontend Field Display)","Analysis Event","",""
+"","282","Get Product Shared Government Count Empty Field","Assurdly | Producer API","Wed Jun 11 18:50:01 GMT 2025","passed","Wed Jun 11 18:50:02 GMT 2025","","Shared With Government","",""
+"","381","Create Single Event - No Auth","Assurdly | Producer API","Wed Jun 11 18:50:07 GMT 2025","passed","Wed Jun 11 18:50:07 GMT 2025","Single Event","Transformation Event","",""
+"","265","Get Share FQS Invalid Field","Assurdly | Producer API","Wed Jun 11 18:50:17 GMT 2025","passed","Wed Jun 11 18:50:17 GMT 2025","","FQS","",""
+"","267","Get Analysis Manufacturers","Assurdly | Producer API","Wed Jun 11 18:50:13 GMT 2025","passed","Wed Jun 11 18:50:13 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","279","Get Preference","Assurdly | Producer API","Wed Jun 11 18:50:10 GMT 2025","passed","Wed Jun 11 18:50:11 GMT 2025","Analysis > Get Preference","Analysis Event","",""
+"","322","Get Product Shared Government Count","Assurdly | Producer API","Wed Jun 11 18:50:01 GMT 2025","passed","Wed Jun 11 18:50:01 GMT 2025","","Shared With Government","",""
+"","1746","Get Dashboard Statistics","Assurdly | Producer API","Wed Jun 11 18:49:58 GMT 2025","passed","Wed Jun 11 18:49:59 GMT 2025","Overview > Stats","Dashboard","",""
+"","266","Get manufacturers","Assurdly | Producer API","Wed Jun 11 18:50:06 GMT 2025","passed","Wed Jun 11 18:50:06 GMT 2025","Transformation > Get Manufacturer","Transformation Event","",""
+"","269","Get Company Type","Assurdly | Producer API","Wed Jun 11 18:50:12 GMT 2025","passed","Wed Jun 11 18:50:13 GMT 2025","Analysis > Get Company Type","Analysis Event","",""
+"","271","Get Preference","Assurdly | Producer API","Wed Jun 11 18:50:03 GMT 2025","passed","Wed Jun 11 18:50:03 GMT 2025","Transformation > Get Preference","Transformation Event","",""
+"","262","Set uom Preference","Assurdly | Producer API","Wed Jun 11 18:49:57 GMT 2025","failed","Wed Jun 11 18:49:57 GMT 2025","Preference","Home","",""
+"","275","Creating Analysis Event","Assurdly | Producer API","Wed Jun 11 18:50:15 GMT 2025","failed","Wed Jun 11 18:50:15 GMT 2025","Single Event","Analysis Event","",""
+"","277","Get Labels","Assurdly | Producer API","Wed Jun 11 18:50:11 GMT 2025","passed","Wed Jun 11 18:50:12 GMT 2025","Analysis > Get Labels (for Frontend Field Display)","Analysis Event","",""
+"","269","Get uom Preference","Assurdly | Producer API","Wed Jun 11 18:49:57 GMT 2025","failed","Wed Jun 11 18:49:57 GMT 2025","Preference","Home","",""
+"","275","Creating Analysis Event - Invalid Fields","Assurdly | Producer API","Wed Jun 11 18:50:15 GMT 2025","passed","Wed Jun 11 18:50:15 GMT 2025","Single Event","Analysis Event","",""
+"","264","Get Analysis Manufacturers - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:13 GMT 2025","passed","Wed Jun 11 18:50:13 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","378","Get Product Instance Graph","Assurdly | Producer API","Wed Jun 11 18:50:08 GMT 2025","passed","Wed Jun 11 18:50:09 GMT 2025","","Product Instances","",""
+"","271","Get Analysis Manufacturers","Assurdly | Producer API","Wed Jun 11 18:50:14 GMT 2025","passed","Wed Jun 11 18:50:14 GMT 2025","Analysis Manufacturers","Analysis Event","",""
+"","270","Get Total Events Count Empty Field","Assurdly | Producer API","Wed Jun 11 18:50:09 GMT 2025","failed","Wed Jun 11 18:50:10 GMT 2025","","Events","",""
+"","321","Get Sites","Assurdly | Producer API","Wed Jun 11 18:50:02 GMT 2025","passed","Wed Jun 11 18:50:03 GMT 2025","Transformation > Get Sites","Transformation Event","",""
+"","276","Get Labels - Case Sensitive Event Type","Assurdly | Producer API","Wed Jun 11 18:50:04 GMT 2025","failed","Wed Jun 11 18:50:05 GMT 2025","Transformation > Get Labels (for Frontend Field Display)","Transformation Event","",""
+"","1083","Login - Valid Credentials","Assurdly | Producer API","Wed Jun 11 18:49:53 GMT 2025","passed","Wed Jun 11 18:49:54 GMT 2025","Login","Authentication","",""
+"","305","Get Dashboard Filter","Assurdly | Producer API","Wed Jun 11 18:50:01 GMT 2025","passed","Wed Jun 11 18:50:01 GMT 2025","Overview > Stats","Dashboard","",""
+"","282","Get transform outprod","Assurdly | Producer API","Wed Jun 11 18:50:05 GMT 2025","passed","Wed Jun 11 18:50:05 GMT 2025","Transformation > Get Transform Outprod","Transformation Event","",""
+"","280","Get Analysis Product Ids","Assurdly | Producer API","Wed Jun 11 18:50:13 GMT 2025","passed","Wed Jun 11 18:50:13 GMT 2025","Analysis Product Ids","Analysis Event","",""
+"","275","Get Labels - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:12 GMT 2025","failed","Wed Jun 11 18:50:12 GMT 2025","Analysis > Get Labels (for Frontend Field Display)","Analysis Event","",""
+"","271","Read Notification","Assurdly | Producer API","Wed Jun 11 18:49:56 GMT 2025","passed","Wed Jun 11 18:49:56 GMT 2025","Notification","Home","",""
+"","272","Read Notification - Invalid Notification id","Assurdly | Producer API","Wed Jun 11 18:49:56 GMT 2025","failed","Wed Jun 11 18:49:56 GMT 2025","Notification","Home","",""
+"","269","Get Labels","Assurdly | Producer API","Wed Jun 11 18:50:04 GMT 2025","passed","Wed Jun 11 18:50:04 GMT 2025","Transformation > Get Labels (for Frontend Field Display)","Transformation Event","",""
+"","270","Get Sites","Assurdly | Producer API","Wed Jun 11 18:50:10 GMT 2025","passed","Wed Jun 11 18:50:10 GMT 2025","Analysis > Get Sites","Analysis Event","",""
+"","270","Get Total Event Empty Field","Assurdly | Producer API","Wed Jun 11 18:50:09 GMT 2025","failed","Wed Jun 11 18:50:09 GMT 2025","","Events","",""
+"","444","Get Product Instance Shared Government","Assurdly | Producer API","Wed Jun 11 18:50:02 GMT 2025","passed","Wed Jun 11 18:50:02 GMT 2025","","Shared With Government","",""
+"","383","Get product brand category - No auth","Assurdly | Producer API","Wed Jun 11 18:50:06 GMT 2025","passed","Wed Jun 11 18:50:06 GMT 2025","Transformation > Get Product Brand Category","Transformation Event","",""
+"","269","Get Share FQS","Assurdly | Producer API","Wed Jun 11 18:50:16 GMT 2025","failed","Wed Jun 11 18:50:17 GMT 2025","","FQS","",""
+"","268","Get Tooltips","Assurdly | Producer API","Wed Jun 11 18:50:11 GMT 2025","passed","Wed Jun 11 18:50:11 GMT 2025","Analysis > Get Tooltips","Analysis Event","",""
+"","271","Get Tooltips","Assurdly | Producer API","Wed Jun 11 18:50:04 GMT 2025","passed","Wed Jun 11 18:50:04 GMT 2025","Transformation > Get Tooltips","Transformation Event","",""
+"","1480","Get Dashboard Statistics Empty Field","Assurdly | Producer API","Wed Jun 11 18:49:59 GMT 2025","passed","Wed Jun 11 18:50:01 GMT 2025","Overview > Stats","Dashboard","",""
+"","383","Get Total Event","Assurdly | Producer API","Wed Jun 11 18:50:09 GMT 2025","passed","Wed Jun 11 18:50:09 GMT 2025","","Events","",""
+"","280","Participant Details","Assurdly | Producer API","Wed Jun 11 18:49:55 GMT 2025","passed","Wed Jun 11 18:49:55 GMT 2025","participant","Home","",""
+"","146","Login - Invalid Credentials - Missing Password","Assurdly | Producer API","Wed Jun 11 18:49:55 GMT 2025","failed","Wed Jun 11 18:49:55 GMT 2025","Login","Authentication","",""
+"","272","Get Company Type","Assurdly | Producer API","Wed Jun 11 18:50:05 GMT 2025","passed","Wed Jun 11 18:50:05 GMT 2025","Transformation > Get Company Type","Transformation Event","",""
+"","229","Login - Invalid Credentials","Assurdly | Producer API","Wed Jun 11 18:49:54 GMT 2025","passed","Wed Jun 11 18:49:55 GMT 2025","Login","Authentication","",""
+"","271","Get Total Events Count","Assurdly | Producer API","Wed Jun 11 18:50:09 GMT 2025","passed","Wed Jun 11 18:50:09 GMT 2025","","Events","",""
+"","378","Get FQS Invalid Field","Assurdly | Producer API","Wed Jun 11 18:50:16 GMT 2025","passed","Wed Jun 11 18:50:16 GMT 2025","","FQS","",""
+"","309","Create Single Event","Assurdly | Producer API","Wed Jun 11 18:50:07 GMT 2025","failed","Wed Jun 11 18:50:07 GMT 2025","Single Event","Transformation Event","",""
+"","280","Get Labels - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:04 GMT 2025","failed","Wed Jun 11 18:50:04 GMT 2025","Transformation > Get Labels (for Frontend Field Display)","Transformation Event","",""
+"","284","Get Product Instance Shared Government Copy","Assurdly | Producer API","Wed Jun 11 18:50:02 GMT 2025","passed","Wed Jun 11 18:50:02 GMT 2025","","Shared With Government","",""
+"","385","Read Notification - No Authorisation","Assurdly | Producer API","Wed Jun 11 18:49:56 GMT 2025","passed","Wed Jun 11 18:49:57 GMT 2025","Notification","Home","",""
+"","409","Notifications","Assurdly | Producer API","Wed Jun 11 18:49:55 GMT 2025","failed","Wed Jun 11 18:49:56 GMT 2025","Notification","Home","",""
+"","271","Creating Analysis Event - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:15 GMT 2025","passed","Wed Jun 11 18:50:15 GMT 2025","Single Event","Analysis Event","",""
+"","382","Get manufacturers - No auth","Assurdly | Producer API","Wed Jun 11 18:50:06 GMT 2025","passed","Wed Jun 11 18:50:07 GMT 2025","Transformation > Get Manufacturer","Transformation Event","",""
+"","305","Get FQS","Assurdly | Producer API","Wed Jun 11 18:50:16 GMT 2025","passed","Wed Jun 11 18:50:16 GMT 2025","","FQS","",""
+"","268","Get Preference - Get Labels -","Assurdly | Producer API","Wed Jun 11 18:50:11 GMT 2025","failed","Wed Jun 11 18:50:11 GMT 2025","Analysis > Get Preference","Analysis Event","",""
+"","381","Get Share FQS - No auth","Assurdly | Producer API","Wed Jun 11 18:50:17 GMT 2025","passed","Wed Jun 11 18:50:17 GMT 2025","","FQS","",""
+"","266","Set uom Preference - Empty Value","Assurdly | Producer API","Wed Jun 11 18:49:57 GMT 2025","failed","Wed Jun 11 18:49:58 GMT 2025","Preference","Home","",""
+"","359","Get Product Instance List","Assurdly | Producer API","Wed Jun 11 18:50:07 GMT 2025","passed","Wed Jun 11 18:50:08 GMT 2025","","Product Instances","",""
+"","271","Get product brand category","Assurdly | Producer API","Wed Jun 11 18:50:05 GMT 2025","passed","Wed Jun 11 18:50:06 GMT 2025","Transformation > Get Product Brand Category","Transformation Event","",""
+"","268","Get Preference - Empty Fields","Assurdly | Producer API","Wed Jun 11 18:50:11 GMT 2025","failed","Wed Jun 11 18:50:11 GMT 2025","Analysis > Get Preference","Analysis Event","",""
+"","271","Get Product Instance Invalid Field","Assurdly | Producer API","Wed Jun 11 18:50:08 GMT 2025","failed","Wed Jun 11 18:50:08 GMT 2025","","Product Instances","",""

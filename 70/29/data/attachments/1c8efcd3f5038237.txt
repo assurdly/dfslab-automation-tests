@@ -1,0 +1,10 @@
+{
+    "manufacturer": {
+        "type": "GLN",
+        "id": "{{government_fetched_manufacturer_value}}"
+    },
+    "productId": {
+        "type": "GTIN"
+    },
+    "typeOfProduct": "edible-oil"
+}

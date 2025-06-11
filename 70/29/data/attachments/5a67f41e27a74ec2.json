@@ -1,8 +1,0 @@
-{
-    "x-powered-by": "Express",
-    "access-control-allow-origin": "*",
-    "date": "Wed, 11 Jun 2025 18:49:24 GMT",
-    "content-length": "0",
-    "x-envoy-upstream-service-time": "13",
-    "server": "istio-envoy"
-}
