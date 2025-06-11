@@ -1,8 +1,0 @@
-{
-    "company_name": "Test for Thursday",
-    "participant": "GLN:4041865000021",
-    "company_type": "prod",
-    "contact": "testing@mailinator.com",
-    "website": "demo",
-    "phonenumber": "623-239-5739"
-}
