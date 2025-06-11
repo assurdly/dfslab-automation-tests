@@ -1,0 +1,1 @@
+{"success":true,"message":"Manufacturer IDs retrieved successfully","data":[{"value":"6150000098765","label":"6150000098765 (Edible Oil Nigeria)","manufacturerName":"Edible Oil Nigeria","manufacturerId":"6150000098765"}],"error":null}
