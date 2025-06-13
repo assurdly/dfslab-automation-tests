@@ -1,0 +1,6 @@
+{
+    "participantId": {
+        "type": "",
+        "id": ""
+    }
+}
