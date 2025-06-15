@@ -1,0 +1,24 @@
+{
+    "request_type": "",
+    "batches": [
+        {
+            "manufacturer_type": "",
+            "manufacturer_id": "",
+            "product_id": "",
+            "product_instance_id": "",
+            "event_location": {
+                "id": "",
+                "type": ""
+            },
+            "fqs_ids": [
+                ""
+            ]
+        }
+    ],
+    "govt_ids": [
+        {
+            "type": "",
+            "id": ""
+        }
+    ]
+}
