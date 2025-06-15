@@ -1,0 +1,17 @@
+{
+    "userName": "Eldora_Botsford67",
+    "firstName": "Celia",
+    "lastName": "Hammes",
+    "emailId": "Catherine_Dibbert78@hotmail.com",
+    "organization": "",
+    "rolesList": [
+        {
+            "id": "",
+            "name": "premix-shipper",
+            "description": "Shipper",
+            "composite": false,
+            "clientRole": false,
+            "containerId": "fc6ecece-c1f0-488d-a13b-b5e144c43b94"
+        }
+    ]
+}
